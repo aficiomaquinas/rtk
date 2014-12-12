@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /full/
+---
+
+<h1>Full</h1>
+<hr>
+
+<article>
+{% for post in site.pages %}
+{% if post.layout == 'post' %}
+	<h3>#
+	{<a href="..{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>}
+	</h3>
+</article>
+{% endif %}
+{% endfor %}
+
+<hr>
+
+<nav class="pagination" role="navigation">
+<a class="btn btn-blue" href="..">/</a>
+</nav>
