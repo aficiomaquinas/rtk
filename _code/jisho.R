@@ -32,7 +32,9 @@ for (i in 1:n) {
 	l.na <- paste0(str_dup("0",4-str_length(l.no)),l.no)
 	content <- paste0("---\nlayout: post\ntitle: ",l.no,
 										"\npermalink: /", l.no,"/",
-										"\nredirect_from: /", l.key, "/",
+										"\nredirect_from:",
+										"\n - /", l.key, "/",
+										"\n - /", tolower(l.key), "/",
 										"\npre_kanji: ", l.nav[i],
 										"\nnex_kanji: ", l.nav[i+2],
 										"\n---",
