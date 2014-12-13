@@ -38,7 +38,7 @@ for (i in 1:n) {
 										"\npre_kanji: ", l.nav[i],
 										"\nnex_kanji: ", l.nav[i+2],
 										"\n---",
-										"\n\n# {",l.no,"}",
+										"\n\n## {",l.no,"}",
 										"\n\n## `", l.key,"`",
 										"\n\n## [",l.strokes,"]\n\n",l.image,
 										"\n\n## Reading:",
