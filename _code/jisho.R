@@ -30,17 +30,17 @@ for (i in 1:n) {
 	l.word <- str_replace_all(l.word, "<br[ ]*[/]?>", "\n\n")
 	l.example <- l[20]
 	l.na <- paste0(str_dup("0",4-str_length(l.no)),l.no)
-	content <- paste0("---\nlayout: post\ntitle: ",l.no,
+	content <- paste0("---\nlayout: post\ntitle: " ,l.ka,
 										"\npermalink: /", l.no,"/",
 										"\nredirect_from:",
-										"\n - /", l.key, "/",
+										"\n - /", l.ka, "/",
 										"\n - /", tolower(l.key), "/",
 										"\npre_kanji: ", l.nav[i],
 										"\nnex_kanji: ", l.nav[i+2],
 										"\n---",
-										"\n\n# {",l.ka,"}",
+										"\n\n# {",l.no,"}",
 										"\n\n## `", l.key,"`",
-										"\n\n## Strokes: ",l.strokes,"\n\n",l.image,
+										"\n\n## [",l.strokes,"]\n\n",l.image,
 										"\n\n## Reading:",
 										"\n\n### On-Yomi: ",l.on,
 										ifelse(l.kun=="",""," &mdash; Kun-Yomi: "),l.kun,
