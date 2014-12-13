@@ -19,9 +19,7 @@
     <article>
 		{% for post in site.pages limit:10 %}
 		{% if post.layout == 'post' %}
-			<h3>#
-			{<a href=".{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>}
-			</h3>
+			<h3>{<a href=".{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>}</h3>
 		</article>
 		{% endif %}
 		{% endfor %}

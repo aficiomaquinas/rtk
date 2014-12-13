@@ -3,15 +3,13 @@ layout: default
 permalink: /full-list/
 ---
 
-<h1>Full</h1>
+<h1>Full list</h1>
 <hr>
 
 <article>
 {% for post in site.pages %}
 {% if post.layout == 'post' %}
-	<h3>#
-	{<a href="..{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>}
-	</h3>
+	<h3>{<a href="..{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>}</h3>
 </article>
 {% endif %}
 {% endfor %}
