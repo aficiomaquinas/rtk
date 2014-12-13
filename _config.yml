@@ -1,6 +1,6 @@
 title: rtk-jisho
 author: Mạnh Tài
-url: http://manhtai.github.io/rtk-jisho
+url: http://hochanh.github.io/rtk-jisho
 description: "Remembering the Kanji: jisho.com"
 
 permalink: /:title/
@@ -8,3 +8,5 @@ permalink: /:title/
 exclude:
  - README.md
 
+gems:
+  - jekyll-redirect-from

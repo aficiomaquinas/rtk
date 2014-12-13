@@ -32,10 +32,12 @@ for (i in 1:n) {
 	l.na <- paste0(str_dup("0",4-str_length(l.no)),l.no)
 	content <- paste0("---\nlayout: post\ntitle: ",l.no,
 										"\npermalink: /", l.no,"/",
+										"\nredirect_from: /", l.key, "/",
 										"\npre_kanji: ", l.nav[i],
 										"\nnex_kanji: ", l.nav[i+2],
 										"\n---",
 										"\n\n# {",l.ka,"}",
+										"\n\n## `", l.key,"`",
 										"\n\n## Strokes: ",l.strokes,"\n\n",l.image,
 										"\n\n## Reading:",
 										"\n\n### On-Yomi: ",l.on,

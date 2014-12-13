@@ -59,7 +59,7 @@ margin-top: 0;
 }
 
 h1 {
-font-size: 2em;
+font-size: 2.5em;
 margin-bottom: 0.7em;
 
 * + & {
@@ -300,4 +300,36 @@ th, td {
 border-top: 1px solid $color-secondary;
 font-size: 0.7em;
 margin-top: 3em;
+}
+
+/* Code highlight */
+h1 code,
+h2 code,
+h3 code,
+p code,
+pre code, 
+li code, 
+td code {
+  color: #A52A2A;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: $font-code;
+}
+pre {
+	border-radius: 2px;
+  margin-bottom: 1.5em; 
+  position: relative;
+  padding: 0.7em;
+  overflow-x: auto;
+  overflow-y: auto;
+  background: #EFE9C3;
+}
+pre code:not(.language-r) {
+  color: #000000;
+  font-weight: unset;  
+}
+.hll { background-color: #ffffcc }
+.c1 { color: #408080; 
+  font-style: italic; 
+  font-weight: unset;
 }
