@@ -16,11 +16,10 @@ for (i in 1:n) {
 	line <- str_split(line, "\037")
 	l <- line[[1]]
 	l.no <- l[2]
-	# l.v6 <- l[3]
 	l.key <- l[4]
 	l.ka <- l[5]
 	l.image <- l[6]
-	# l.image <- str_replace(l.image, "src=\"", "src=\"../images/")
+	l.image <- str_replace(l.image, "src=\"", "src=\"../images/")
 	l.image <- paste0("<div class=\"stroke\">",l.image,"</div>")
 	l.strokes <- l[9]
 	l.on <- l[17]

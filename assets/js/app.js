@@ -14,7 +14,7 @@ $(function() {
     var result  = $('#search-results');
     var entries = $('#search-results .entries');
 
-    if (query.length <= 0) {
+    if (query.length <= 2) {
       result.hide();
       entries.empty();
     } else {
