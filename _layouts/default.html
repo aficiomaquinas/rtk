@@ -1,8 +1,33 @@
-{% include header %}
+<!DOCTYPE html>
+<html class="no-js" lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="{{ site.description }}">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <link href="{% if page.type != 'index' %}../{% endif %}assets/img/favicon.ico" rel="icon">
+  <link href="{% if page.type != 'index' %}../{% endif %}assets/css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
+</head>
+
 <body>
-  <div role="main" class="main">
-    {{ content }}
+
+	<div id="search-box">
+		<input type="search" id="search-query" name="q" placeholder="Tìm từ theo keyword" autocomplete="off">
+	</div>
+
+	<div id="search-results" style="display: none;">
+		<div class="entries"></div>
+	</div>
+	
+	<div role="main" class="main">
+			
+	  {{ content }}
+
   </div>
+
+  <script src="{% if page.type != 'index' %}../{% endif %}assets/js/jquery.min.js"></script> 
+  <script src="{% if page.type != 'index' %}../{% endif %}assets/js/lunr.min.js"></script>
+  <script src="{% if page.type != 'index' %}../{% endif %}assets/js/app.js"></script> 
+  <script src="{% if page.type != 'index' %}../{% endif %}assets/js/search.js"></script>
+
 </body>
-{% include footer %}
 </html>

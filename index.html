@@ -1,33 +1,20 @@
 ---
+layout: default
+type: index
 ---
 
-<!DOCTYPE html>
-<html class="no-js" lang="vi">
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="google-site-verification" content="Aw5bqaMmnIV-BAwPy6lbNAR3nKZt4ILJL7vo5O3_uUk" />
-  <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
-  <link href="assets/favicon.ico" rel="icon">
-  <link href="assets/style.css" media="screen, projection" rel="stylesheet" type="text/css">
-</head>
+<article>
+{% assign count = '0' %}
+{% for post in site.pages limit:10 %}
+{% if post.layout == 'post' %}
+{% capture count %}{{ count | plus: '1' }}{% endcapture %}
+	<h3>{{count}}. <a href="..{{ post.url }}" title="{{ post.title }}">{{ post.kanji }}</a></h3>
+{% endif %}
+{% endfor %}
+</article>
 
-<body>
-  <div role="main" class="main">
-		<h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
-		<hr />
-    <article>
-		{% for post in site.pages limit:10 %}
-		{% if post.layout == 'post' %}
-			<h3>{<a href=".{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>}</h3>
-		</article>
-		{% endif %}
-		{% endfor %}
-		<hr>
-		<nav class="pagination" role="navigation">
-			<a class="btn btn-blue" href="full-list">Full list</a>
-		</nav>
-  </div>
-</body>
-{% include footer %}
-</html>
+<hr>
+
+<nav class="pagination" role="navigation">
+	<a class="btn btn-blue" href="full-list">Full list</a>
+</nav>

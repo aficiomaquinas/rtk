@@ -20,7 +20,7 @@ for (i in 1:n) {
 	l.key <- l[4]
 	l.ka <- l[5]
 	l.image <- l[6]
-	l.image <- str_replace(l.image, "src=\"", "src=\"../images/")
+	# l.image <- str_replace(l.image, "src=\"", "src=\"../images/")
 	l.image <- paste0("<div class=\"stroke\">",l.image,"</div>")
 	l.strokes <- l[9]
 	l.on <- l[17]
@@ -29,7 +29,8 @@ for (i in 1:n) {
 	l.word <- str_replace_all(l.word, "<br[ ]*[/]?>", "\n\n")
 	l.example <- l[20]
 	l.na <- paste0(str_dup("0",4-str_length(l.no)),l.no)
-	content <- paste0("---\nlayout: post\ntitle: " ,l.ka,
+	content <- paste0("---\nlayout: post\ntitle: " ,l.ka," ",l.key,
+										"\nkanji: ", l.ka,
 										"\npermalink: /", l.no,"/",
 										"\nredirect_from:",
 										"\n - /", l.ka, "/",

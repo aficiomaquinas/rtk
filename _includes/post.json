@@ -1,0 +1,5 @@
+{
+  "id"      : "{{ post.url | remove:'"' }}",
+  "title"   : "{{ post.title | remove:'"' }}",
+  "content" : "{{ post.content | strip_html | strip_newlines | remove:'"' }}"
+}
