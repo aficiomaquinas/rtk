@@ -14,7 +14,7 @@ $(function() {
     var result  = $('#search-results');
     var entries = $('#search-results .entries');
 
-    if (query.length <= 1) {
+    if (query.length <= 0) {
       result.hide();
       entries.empty();
     } else {
@@ -31,7 +31,7 @@ $(function() {
         $.each(results, function(key, page) {
           entries.append('<article>'+
           '  <h3>'+
-          '    <a href="'+page.id+'">'+page.title+'</a>'+
+          '    <a href=".'+page.id+'">'+page.title+'</a>'+
           '  </h3>'+
           '</article>');
         });
