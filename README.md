@@ -1,7 +1,7 @@
-[rtk-koohii]
+[rtk-jisho]
 ============
 
 
-Đây là mã nguồn trang [rtk-koohii](http://hochanh.github.io/rtk-koohii).
+Đây là mã nguồn trang [rtk-jisho](http://hochanh.github.io/rtk-jisho).
 
-Địa chỉ gốc [hochanh/rtk-koohii](http://github.com/hochanh/rtk-koohii).
+Địa chỉ gốc [hochanh/rtk-jisho](http://github.com/hochanh/rtk-jisho).
