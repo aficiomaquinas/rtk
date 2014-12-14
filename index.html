@@ -3,15 +3,17 @@ layout: default
 type: index
 ---
 
-<article>
-{% assign count = '0' %}
-{% for post in site.pages limit:10 %}
-{% if post.layout == 'post' %}
-{% capture count %}{{ count | plus: '1' }}{% endcapture %}
-	<h3>{{count}}. <a href="..{{ post.url }}" title="{{ post.title }}">{{ post.kanji }}</a></h3>
-{% endif %}
-{% endfor %}
-</article>
+<h1>{{ site.title }}</h1>
+<hr>
+
+
+<div id="search-box">
+		<input type="search" id="search-query" name="q" placeholder="Tìm từ theo keyword" autocomplete="off">
+</div>
+
+<div id="search-results" style="display: none;">
+		<div class="entries"></div>
+</div>
 
 <hr>
 

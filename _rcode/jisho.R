@@ -37,6 +37,7 @@ for (i in 1:n) {
 										"\n - /", tolower(l.key), "/",
 										"\npre_kanji: ", l.nav[i],
 										"\nnex_kanji: ", l.nav[i+2],
+										"\nheisig: ",l[11],
 										"\n---",
 										"\n\n## {",l.no,"}",
 										"\n\n## `", l.key,"`",

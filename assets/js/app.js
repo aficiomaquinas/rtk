@@ -31,7 +31,7 @@ $(function() {
         $.each(results, function(key, page) {
           entries.append('<article>'+
           '  <h3>'+
-          '    <a href="{% if page.type != 'index' %}..{% endif %}'+page.id+'">'+page.title+'</a>'+
+          '    <a href="'+page.id+'">'+page.title+'</a>'+
           '  </h3>'+
           '</article>');
         });
