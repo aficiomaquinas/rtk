@@ -22,6 +22,8 @@ for (i in 1:n) {
 	l.image <- str_replace(l.image, "src=\"", "src=\"../images/")
 	l.image <- paste0("<div class=\"stroke\">",l.image,"</div>")
 	l.strokes <- l[9]
+	l.hei <- l[11]
+	l.hei <- str_replace_all(l.hei, "\"", "&quot;")
 	l.on <- l[17]
 	l.kun <- l[18]
 	l.word <- l[19]
@@ -36,7 +38,7 @@ for (i in 1:n) {
 										"\n - /", tolower(l.key), "/",
 										"\npre_kanji: ", l.nav[i],
 										"\nnex_kanji: ", l.nav[i+2],
-										"\nheisig: \"",l[11],"\"",
+										"\nheisig: \"",l.hei,"\"",
 										"\n---",
 										"\n\n## {",l.no,"}",
 										"\n\n## `", l.key,"`",
