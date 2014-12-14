@@ -8,8 +8,7 @@ for (i in 1:n) {
 	line <- data[i]
 	line <- str_split(line, "\037")
 	l <- line[[1]]
-	l.no <- l[2]
-	l.nav[i+1] <- l.no
+	l.nav[i+1] <- l[2]
 }
 
 for (i in 1:n) {
