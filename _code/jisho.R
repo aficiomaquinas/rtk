@@ -1,6 +1,7 @@
 library(stringr)
 data <- read.csv("database.csv")
 data <- as.vector(data$flds)
+koo.v4 <- readRDS("koohii.rds")
 n <- length(data)
 l.nav <- rep(0, n+2)
 
@@ -45,9 +46,9 @@ for (i in 1:n) {
 										"\n\n## Reading:",
 										"\n\n### On-Yomi: ",l.on,
 										ifelse(l.kun=="",""," &mdash; Kun-Yomi: "),l.kun,
-										ifelse(l.example == "","",
-													 "\n\n### Examples: "), l.example,
-										ifelse(l.word == "","","\n\n## Words:\n\n"), l.word,
+										# ifelse(l.example == "","",
+										#			 "\n\n### Examples: "), l.example,
+										# ifelse(l.word == "","","\n\n## Words:\n\n"), l.word,
 										"\n\n## Koohii stories:",
 										"\n\n", koo.v4[as.numeric(l.no)])
 	l.path <- paste0("/data/repos/manhtai/rtk/jisho/",l.na,".md")
