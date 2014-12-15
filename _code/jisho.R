@@ -40,7 +40,6 @@ for (i in 1:n) {
 										"\nnex_kanji: ", l.nav[i+2],
 										"\nheisig: \"",l.hei,"\"",
 										"\n---",
-										"\n\n## {",l.no,"}",
 										"\n\n## `", l.key,"`",
 										"\n\n## [",l.strokes,"]\n\n",l.image,
 										"\n\n## Reading:",
@@ -48,7 +47,9 @@ for (i in 1:n) {
 										ifelse(l.kun=="",""," &mdash; Kun-Yomi: "),l.kun,
 										ifelse(l.example == "","",
 													 "\n\n### Examples: "), l.example,
-										ifelse(l.word == "","","\n\n## Words:\n\n"), l.word)
-	l.path <- paste0("/data/repos/hochanh/rtk-jisho/jisho/",l.na,".md")
+										ifelse(l.word == "","","\n\n## Words:\n\n"), l.word,
+										"\n\n## Koohii stories:",
+										"\n\n", koo.v4[as.numeric(l.no)])
+	l.path <- paste0("/data/repos/manhtai/rtk/jisho/",l.na,".md")
 	writeLines(content, l.path)
 }
