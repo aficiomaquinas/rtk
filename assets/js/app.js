@@ -1,7 +1,7 @@
 ---
 ---
 $(function() {
-	$('#search input.button').on('click', function() {
+	$('#search-button').on('click', function() {
     return search();
   });
   
