@@ -25,6 +25,8 @@ for (i in 1:n) {
 	l.strokes <- l[9]
 	l.hei <- l[11]
 	l.hei <- str_replace_all(l.hei, "\"", "&quot;")
+	l.hei <- str_replace_all(l.hei, "<div>", "<p>")
+	l.hei <- str_replace_all(l.hei, "</div>", "</p>")
 	l.on <- l[17]
 	l.kun <- l[18]
 	l.word <- l[19]
@@ -39,7 +41,9 @@ for (i in 1:n) {
 										"\n - /", tolower(l.key), "/",
 										"\npre_kanji: ", l.nav[i],
 										"\nnex_kanji: ", l.nav[i+2],
-										"\nheisig: \"",l.hei,"\"",
+										"\nheisig: \"",l.hei,
+										ifelse(koo.v4[no=l.no,2]=="",""," "),
+										koo.v4[no=l.no,2],"\"",
 										"\n---",
 										"\n\n## `", l.key,"`",
 										"\n\n## [",l.strokes,"]\n\n",l.image,
@@ -49,8 +53,12 @@ for (i in 1:n) {
 										# ifelse(l.example == "","",
 										#			 "\n\n### Examples: "), l.example,
 										# ifelse(l.word == "","","\n\n## Words:\n\n"), l.word,
+										"\n\n## Heisig V6:",
+										"\n\n", l.hei,
+										ifelse(koo.v4[no=l.no,2]=="","",
+													 "\n\n## Premitive V4:\n\n"), koo.v4[no=l.no,2],
 										"\n\n## Koohii stories:",
-										"\n\n", koo.v4[as.numeric(l.no)])
+										"\n\n", koo.v4[no=l.no,3])
 	l.path <- paste0("/data/repos/manhtai/rtk/jisho/",l.na,".md")
 	writeLines(content, l.path)
 }
