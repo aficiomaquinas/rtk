@@ -2,6 +2,7 @@ library(stringr)
 koohii <- readLines("/data/Downloads/rtk20.txt")
 koo.v4 <- matrix(rep("",3*3030), ncol = 3, 
 								 dimnames = list(1:3030,c("no","s0","s2")))
+i <- 1949
 for (i in 1:3030) {
 	# Reset k.s0
 	k.s0 <- ""
@@ -25,7 +26,8 @@ for (i in 1:3030) {
 	k.s2 <- k[8]
 	k.s2 <- str_split(k.s2, "<br[ ]*[/]?>")[[1]][2:11]
 	k.s2 <- str_replace_all(k.s2, "\"{2,}", "\"")
-  k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alpha:]]+)\">[[:alpha:]]+</a>", "\\1")
+  k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alnum:]]+)\">[[:alnum:]]+</a>", "\\1")
+	k.s2 <- str_replace_all(k.s2, "midori://search[?]text=", "http://google.com/#q=")
 	k.s2 <- str_replace_all(k.s2, "http://kanji.koohii.com/study/kanji/", "../")
 	k.s2 <- str_replace_all(k.s2, "<span class=\"index\">", "")
 	k.s2 <- str_replace_all(k.s2, "</span>", "")
