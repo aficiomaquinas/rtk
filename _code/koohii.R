@@ -25,7 +25,7 @@ for (i in 1:3030) {
 	# Set Koohii stories to k.s2 and clear up
 	k.s2 <- k[8]
 	k.s2 <- str_split(k.s2, "<br[ ]*[/]?>")[[1]][2:11]
-	k.s2 <- str_replace_all(k.s2, "\"{2,}", "\"")
+	k.s2 <- str_replace_all(k.s2, "\"\"", "\"")
   k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alnum:]]+)\">[[:alnum:]]+</a>", "\\1")
 	k.s2 <- str_replace_all(k.s2, "midori://search[?]text=", "http://google.com/#q=")
 	k.s2 <- str_replace_all(k.s2, "http://kanji.koohii.com/study/kanji/", "../")
