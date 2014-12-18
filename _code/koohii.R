@@ -2,7 +2,7 @@ library(stringr)
 koohii <- readLines("/data/Downloads/rtk20.txt")
 koo.v4 <- matrix(rep("",3*3030), ncol = 3, 
 								 dimnames = list(1:3030,c("no","s0","s2")))
-i <- 1972
+i <- 1999
 for (i in 1:3030) {
 	# Reset k.s0
 	k.s0 <- ""
@@ -20,9 +20,17 @@ for (i in 1:3030) {
 		if (!is.na(k.pc[1])) {
 			if (k.pc[1] == 1) {
 				k.lc <- str_locate(k.s1, "[[][[:digit:]]+[]]")
-				k.s0 <- str_sub(k.s1, 3, k.lc[2])
+				if (anyNA(k.lc)) {
+					k.lim <- str_length(k.s1)
+				} else {
+					k.lim <- k.lc[2]
+				}		
+				k.s0 <- str_sub(k.s1, 2, k.lim)
 			} else {
 				k.s0 <- str_sub(k.s1, k.pc[1]+1, str_length(k.s1))
+				if (str_sub(k.s0, str_length(k.s0)) == "\"") {
+				k.s0 <- str_sub(k.s0, 1, str_length(k.s0) - 1)
+				}
 			}
 			k.s0 <- str_trim(k.s0)
 		}
