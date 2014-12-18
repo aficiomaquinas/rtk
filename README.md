@@ -1,7 +1,5 @@
-[rtk]
-=====
+[rtk1-v6]
+=========
 
 
-Đây là mã nguồn trang [rtk.manhtai.com](http://rtk.manhtai.com).
-
-Địa chỉ gốc [manhtai.github.io/rtk](http://manhtai.github.io/rtk).
+Đây là mã nguồn nhánh rtk1-v4 với 2200 hán tự.
