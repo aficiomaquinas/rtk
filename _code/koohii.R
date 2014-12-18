@@ -28,7 +28,7 @@ for (i in 1:3030) {
 	k.s2 <- str_replace_all(k.s2, "\"\"", "\"")
   k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alnum:]]+)\">[[:alnum:]]+</a>", "\\1")
 	k.s2 <- str_replace_all(k.s2, "midori://search[?]text=", "http://google.com/#q=")
-	k.s2 <- str_replace_all(k.s2, "http://kanji.koohii.com/study/kanji/", "../")
+	k.s2 <- str_replace_all(k.s2, "http://kanji.koohii.com/study/kanji/", "../v4/")
 	k.s2 <- str_replace_all(k.s2, "<span class=\"index\">", "")
 	k.s2 <- str_replace_all(k.s2, "</span>", "")
 	k.s2 <- str_replace_all(k.s2, "[[:space:]]{2,}", " ")
