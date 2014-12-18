@@ -33,6 +33,9 @@ for (i in 1:3030) {
 				}
 			}
 			k.s0 <- str_trim(k.s0)
+			k.s0 <- str_replace_all(k.s0, "\"\"", "\"")
+			k.s0 <- str_replace_all(k.s0, "\"", "&quot;")
+			k.s0 <- str_replace_all(k.s0, "[[:space:]]{2,}", " ")
 		}
 		# Set Koohii stories to k.s2 and clear up
 		k.s2 <- k[8]
