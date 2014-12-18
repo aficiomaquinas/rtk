@@ -2,7 +2,7 @@ library(stringr)
 koohii <- readLines("/data/Downloads/rtk20.txt")
 koo.v4 <- matrix(rep("",3*3030), ncol = 3, 
 								 dimnames = list(1:3030,c("no","s0","s2")))
-i <- 1999
+i <- 777
 for (i in 1:3030) {
 	# Reset k.s0
 	k.s0 <- ""
