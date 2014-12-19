@@ -12,10 +12,11 @@ for (i in 1:n) {
 	l.no6 <- l[3]
 	l.key <- l[4]
 	l.ka <- l[5]
-	l.image <- l[6]
-	l.image <- str_replace(l.image, "src=\"", "src=\"../images/")
-	l.image <- paste0("<div class=\"stroke\">",l.image,"</div>")
-	l.strokes <- l[9]
+	l.img <- str_replace(l[6],
+												 "<img src=\"([[:alnum:]]{6,}).png\" />", 
+												 "\\1")
+	l.ele <- l[8]
+	l.sks <- l[9]
 	l.hei <- l[11]
 	l.hei <- str_replace_all(l.hei, "\"", "&quot;")
 	l.hei <- str_replace_all(l.hei, "<div>", "\n")
@@ -26,10 +27,19 @@ for (i in 1:n) {
 	l.word <- str_replace_all(l.word, "<br[ ]*[/]?>", "\n\n")
 	l.example <- l[20]
 	l.na <- paste0(str_dup("0",4-str_length(l.no6)),l.no6)
-	l.pre <- koo.v4[koo.v4$no==l.no,2]
+	l.pri <- koo.v4[koo.v4$no==l.no,2]
 	l.koo <- koo.v4[koo.v4$no==l.no,3]
-	content <- paste0("---\nlayout: post\ntitle: " ,l.ka," ",l.key,
+	content <- paste0("---",
+										"\nlayout: kanji",
+										"\nv4: ", l.no,
+										"\nv6: ", l.no6,
 										"\nkanji: ", l.ka,
+										"\nkeyword: ",l.key,
+										"\nelements: ", l.ele,
+										"\nstrokes: ", l.sks,
+										"\nimage: ", l.img,
+										"\non-yomi: ", l.on,
+										ifelse(l.kun=="","",paste0("\nkun-yomi: ", l.kun)),
 										"\npermalink: /", l.no6,"/",
 										"\nredirect_from:",
 										"\n - /", l.ka, "/",
@@ -38,25 +48,15 @@ for (i in 1:n) {
 										ifelse(str_detect(l.ka,"・"),
 													 paste0("\n - /", str_sub(l.ka,1,1), "/",
 													 "\n - /", str_sub(l.ka,3,3), "/"),""),
-										"\npre_kanji: ", as.numeric(l.no6) - 1,
-										"\nnex_kanji: ", as.numeric(l.no6) + 1,
-										ifelse(l.hei=="","","\nheisig: \""),l.hei,
-										ifelse(l.pre=="",""," "),
-										l.pre,
-										ifelse(l.hei=="","","\""),
+										"\nprev: ", as.numeric(l.no6) - 1,
+										"\nnext: ", as.numeric(l.no6) + 1,
+										ifelse(l.hei=="","",
+													 paste0("\nheisig: \"",l.hei,"\"")),
+										ifelse(l.pri=="","",
+													 paste0("\nprimit: \"",l.pri,"\"")),
 										"\n---",
-										"\n\n## `", l.key,"`",
-										"\n\n## [",l.strokes,"]\n\n",l.image,
-										"\n\n## Reading:",
-										"\n\n### On-Yomi: ",l.on,
-										ifelse(l.kun=="",""," &mdash; Kun-Yomi: "),l.kun,
-										ifelse(l.hei=="","","\n\n## Heisig story:\n\n"),
-										l.hei,
-										ifelse(l.pre=="","",
-													 "\n\n## Premitive:\n\n"), l.pre,
-										"\n\n## Koohii stories:",
 										"\n\n", l.koo,
-										"\n\n### {V4: ", l.no,", V6: ", l.no6, "}")
-	l.path <- paste0("/data/repos/manhtai/rtk/jisho/",l.na,".md")
+										"\n")
+	l.path <- paste0("/data/repos/manhtai/rtk/kanji/",l.na,".md")
 	writeLines(content, l.path)
 }

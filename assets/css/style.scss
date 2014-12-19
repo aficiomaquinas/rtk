@@ -67,6 +67,10 @@ margin-top: 0.9em;
 }
 }
 
+h1 > a:visited {
+color: $color-primary-heading;
+}
+
 h2 {
 font-size: 1.5em;
 margin-bottom: 0.5em;
@@ -278,6 +282,7 @@ margin-top: 0px;
 	width: 100%;
 	overflow-x: auto;
 	overflow-y: hidden;
+	margin-top: 3em;
 	margin-bottom: 3em;
 }
 
@@ -349,4 +354,12 @@ pre code:not(.language-r) {
 .c1 { color: #408080; 
   font-style: italic; 
   font-weight: unset;
+}
+
+.left-arrow {
+  float: left;
+}
+
+.right-arrow {
+  float: right;
 }

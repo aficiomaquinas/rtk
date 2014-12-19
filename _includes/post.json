@@ -1,5 +1,8 @@
 {
   "id"      : "{{ post.url | remove:'"' }}",
-  "title"   : "{{ post.title | remove:'"' }}",
-  "content" : "{{ post.heisig | strip_html | strip_newlines | remove:'"' }}"
+  "kanji" : "{{ post.kanji }}",
+  "keyword" : "{{ post.keyword | remove:'"' }}",
+  "elements" : "{{ post.elements | remove:'"' }}",
+  "v4" : "{{ post.v4 }}",
+  "v6" : "{{ post.v6 }}",
 }

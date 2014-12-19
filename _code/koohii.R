@@ -2,7 +2,7 @@ library(stringr)
 koohii <- readLines("/data/Downloads/rtk20.txt")
 koo.v4 <- matrix(rep("",3*3030), ncol = 3, 
 								 dimnames = list(1:3030,c("no","s0","s2")))
-i <- 1949
+i <- 37
 for (i in 1:3030) {
 	# Reset k.s0
 	k.s0 <- ""
@@ -17,6 +17,7 @@ for (i in 1:3030) {
 		# Check and set premitive to k.s0
 		k.s1 <- k[3]
 		k.pc <- str_locate(k.s1, "[*]")
+		k.pc2 <- str_locate(k.s1, "As a primitive")
 		if (!is.na(k.pc[1])) {
 			if (k.pc[1] < 4) {
 				k.lc <- str_locate(k.s1, "[[][[:digit:]]+[]]")
@@ -28,15 +29,22 @@ for (i in 1:3030) {
 				k.s0 <- str_sub(k.s1, k.pc[1]+1, k.lim)
 			} else {
 				k.s0 <- str_sub(k.s1, k.pc[1]+1, str_length(k.s1))
+			}
+		} else {
+			if (!is.na(k.pc2[1])) {
+				k.s0 <- str_sub(k.s1, k.pc2[1], str_length(k.s1))
 				if (str_sub(k.s0, str_length(k.s0)) == "\"") {
 				k.s0 <- str_sub(k.s0, 1, str_length(k.s0) - 1)
-				}
 			}
-			k.s0 <- str_trim(k.s0)
-			k.s0 <- str_replace_all(k.s0, "\"\"", "\"")
-			k.s0 <- str_replace_all(k.s0, "\"", "&quot;")
-			k.s0 <- str_replace_all(k.s0, "[[:space:]]{2,}", " ")
+		 }
 		}
+		if (str_sub(k.s0, str_length(k.s0)) == "\"") {
+			k.s0 <- str_sub(k.s0, 1, str_length(k.s0) - 1)
+		}
+		k.s0 <- str_trim(k.s0)
+		k.s0 <- str_replace_all(k.s0, "\"\"", "\"")
+		k.s0 <- str_replace_all(k.s0, "\"", "&quot;")
+		k.s0 <- str_replace_all(k.s0, "[[:space:]]{2,}", " ")
 		# Set Koohii stories to k.s2 and clear up
 		k.s2 <- k[8]
 		k.s2 <- str_split(k.s2, "<br[ ]*[/]?>")[[1]][2:11]

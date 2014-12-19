@@ -3,13 +3,13 @@ layout: default
 permalink: /full-list/
 ---
 
-<h1>Danh sách đầy đủ (2200)</h1>
+<h1>Danh sách</h1>
 <hr>
 
 <article>
 {% assign count = '0' %}
 {% for post in site.pages %}
-{% if post.layout == 'post' %}
+{% if post.layout == 'kanji' %}
 {% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<h3>{{count}}. <a href="..{{ post.url }}" title="{{ post.title }}">{{ post.kanji }}</a></h3>
 {% endif %}

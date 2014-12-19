@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<h1>
+<a title="Frame number V4: {{ page.v4 }}, V6: {{ page.v6 }}" href="../">{{ page.kanji }}</a>
+</h1>
+
+<hr />
+
+<h1>
+<span class="left-arrow">
+	{% if page.prev != 0 %}
+    <a href="../{{ page.prev }}">&larr;</a>
+  {% endif %}
+</span>
+<span class="right-arrow">
+  {% if page.next != 2201 %}
+    <a href="../{{ page.next }}">&rarr;</a>
+  {% endif %}
+</span>
+</h1>
+
+<h2><code>{{ page.keyword }}</code></h2>
+
+<div class="stroke"><img title="{{ page.strokes }} stroke(s)" src="../strokes/{{ page.image }}.png" /></div>
+
+<h2>Reading:</h2>
+
+<h3>On-Yomi: {{ page.on-yomi }} {% if page.kun-yomi %}— Kun-Yomi: {{ page.kun-yomi }}{% endif %}</h3>
+
+{% if page.heisig %}
+	<h2>Heisig story:</h2>
+	<p>{{ page.heisig }}</p>
+
+	{% if page.primit %}
+		<h2>Primitive:</h2>
+		<p>{{ page.primit }}</p>
+	{% endif %}
+
+{% endif %}
+
+
+<h2>Koohii stories:</h2>
+{{ content }}
+
+<hr>
+<nav class="pagination" role="navigation">
+<a class="btn btn-blue" href="..">Trang chủ</a>
+</nav>

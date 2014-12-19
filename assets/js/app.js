@@ -31,7 +31,7 @@ $(function() {
         $.each(results, function(key, page) {
           entries.append('<article>'+
           '  <h3>'+
-          '    <a href=".'+page.id+'">'+page.title+'</a>'+
+          '    <a href=".'+page.id+'" title="Number frame V4: '+page.v4+', V6: '+page.v6+'">'+page.kanji+' '+page.keyword+'</a>'+
           '  </h3>'+
           '</article>');
         });
