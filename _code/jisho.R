@@ -55,7 +55,8 @@ for (i in 1:n) {
 										ifelse(l.pre=="","",
 													 "\n\n## Premitive:\n\n"), l.pre,
 										"\n\n## Koohii stories:",
-										"\n\n", l.koo)
+										"\n\n", l.koo,
+										"\n\n### {V4: ", l.no,", V6: ", l.no6, "}")
 	l.path <- paste0("/data/repos/manhtai/rtk/jisho/",l.na,".md")
 	writeLines(content, l.path)
 }
