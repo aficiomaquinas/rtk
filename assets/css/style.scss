@@ -11,223 +11,220 @@ $color-tertiary: rgb(226,226,226);
 $color-highlight: rgb(155,55,50);
 
 $mini: 400px;
-$medi: 888px;
+$medi: 800px;
 $maxi: 1000px;
 
 *, *:before, *:after {
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-font-family: $font-family;
-font-size: 15px;
-color: $color-primary;
-background: #eee;
-line-height: 1.5;
+	font-family: $font-family;
+	font-size: 15px;
+	color: $color-primary;
+	background: #eee;
+	line-height: 1.5;
 }
 
 .main {
-margin-top: 1em;
-max-width: $maxi;
-background: $color-background;
-padding: 4em 5em;
+	margin-top: 1em;
+	max-width: $maxi;
+	min-width: $mini;
+	background: $color-background;
+	padding: 1em 1em;
 
-@media screen and (min-width: $medi) {
-width: 100%;
-margin: 3em auto 2em;
-}
+	@media screen and (min-width: $medi) {
+		width: 100%;
+		margin: 2em auto 2em;
+		padding: 3em 4em;
+	}
 }
 
 #foot{
-margin-top: 1em;
-max-width: $medi;
+	margin-top: 1em;
+	max-width: $maxi;
 
-@media screen and (min-width: $medi) {
-width: 88.8%;
-margin: 1em auto 2em;
-}
+	@media screen and (min-width: $medi) {
+		width: 88.8%;
+		margin: 1em auto 2em;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: $font-family;
-font-weight: normal;
-color: $color-primary-heading;
-text-align: center;
-margin-top: 0;
+	font-family: $font-family;
+	font-weight: normal;
+	color: $color-primary-heading;
+	text-align: center;
+	margin-top: 0;
 }
 
 h1 {
-font-size: 2.5em;
-margin-bottom: 0.7em;
+	font-size: 2.5em;
+	margin-bottom: 0.7em;
 
-* + & {
-margin-top: 0.9em;
-}
+	* + & {
+		margin-top: 0.9em;
+	}
 }
 
 h1 > a:visited {
-color: $color-primary-heading;
+	color: $color-primary-heading;
 }
 
 h2 {
-font-size: 1.5em;
-margin-bottom: 0.5em;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
 
-* + & {
-margin-top: 2em;
-}
+	* + & {
+		margin-top: 2em;
+	}
 }
 
 h3 {
-font-size: 1.2em;
-margin-bottom: 0.7em;
+	font-size: 1.2em;
+	margin-bottom: 0.7em;
 
-* + & {
-margin-top: 0.6em;
-}
+	* + & {
+		margin-top: 0.6em;
+	}
 }
 
 p {
-line-height: 2em;
-margin-top: 0;
-margin-bottom: 1em;
+	line-height: 2em;
+	margin-top: 0;
+	margin-bottom: 1em;
 }
 
 li {
-line-height: 1.5em;
-margin-top: 0;
-margin-bottom: 1em;
+	line-height: 1.5em;
+	margin-top: 0;
+	margin-bottom: 1em;
 }
 
 a {
-color: $color-highlight;
-text-decoration: none;
+	color: $color-highlight;
+	text-decoration: none;
 }
 
 a:visited {
-color: $color-primary;
+	color: $color-primary;
 }
 
 a:hover {
-color: $color-secondary;
+	color: $color-secondary;
 }
 
 a:focus {
-color: #000000;
-outline: thin dotted;
+	color: #000000;
+	outline: thin dotted;
 }
 
 a:hover,
-a:active {
-outline: 0;
-}
-
-.pagination {
-margin: 3em auto 2em;
-text-align: center;
+	a:active {
+	outline: 0;
 }
 
 .btn {
-display: inline-block;
-padding: 8px 20px;
-margin-bottom: 20px;
-font-size: 14px;
-font-size: 0.875rem;
-color: #ffffff;
-background-color: #222222;
-border-color: #222222;
-border-style: solid !important;
-border-width: 2px !important;
+	display: inline-block;
+	padding: 8px 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-size: 0.875rem;
+	color: #ffffff;
+	background-color: #222222;
+	border-color: #222222;
+	border-style: solid !important;
+	border-width: 2px !important;
 }
 
 .btn.title {
-font-weight: 700;
+	font-weight: 700;
 }
 
 .btn:visited {
-color: #ffffff;
+	color: #ffffff;
 }
 
 .btn:hover,
 .btn.disable,
 .btn.disable:visited,
 .btn.disable:hover {
-color: #222222;
-background-color: #ffffff;
+	color: #222222;
+	background-color: #ffffff;
 }
 
 .btn-green {
-color: #ffffff;
-background-color: #5cb85c;
-border-color: #5cb85c;
+	color: #ffffff;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
 }
 
 .btn-green:visited {
-color: #ffffff;
+	color: #ffffff;
 }
 
 .btn-green:hover,
 .btn-green.disable,
 .btn-green.disable:visited,
 .btn-green.disable:hover {
-color: #5cb85c;
-background-color: #ffffff;
+	color: #5cb85c;
+	background-color: #ffffff;
 }
 
 .btn-orange {
-color: #ffffff;
-background-color: #dd8338;
-border-color: #dd8338;
+	color: #ffffff;
+	background-color: #dd8338;
+	border-color: #dd8338;
 }
 
 .btn-orange:visited {
-color: #ffffff;
+	color: #ffffff;
 }
 
 .btn-orange:hover,
 .btn-orange.disable,
 .btn-orange.disable:visited,
 .btn-orange.disable:hover {
-color: #dd8338;
-background-color: #ffffff;
+	color: #dd8338;
+	background-color: #ffffff;
 }
 
 .btn-red {
-color: #ffffff;
-background-color: #c64537;
-border-color: #c64537;
+	color: #ffffff;
+	background-color: #c64537;
+	border-color: #c64537;
 }
 
 .btn-red:visited {
-color: #ffffff;
+	color: #ffffff;
 }
 
 .btn-red:hover,
 .btn-red.disable,
 .btn-red.disable:visited,
 .btn-red.disable:hover {
-color: #c64537;
-background-color: #ffffff;
+	color: #c64537;
+	background-color: #ffffff;
 }
 
 .btn-blue {
-color: #ffffff;
-background-color: #308cbc;
-border-color: #308cbc;
+	color: #ffffff;
+	background-color: #308cbc;
+	border-color: #308cbc;
 }
 
 .btn-blue:visited {
-color: #ffffff;
+	color: #ffffff;
 }
 
 .btn-blue:hover,
 .btn-blue.disable,
 .btn-blue.disable:visited,
 .btn-blue.disable:hover {
-color: #308cbc;
-background-color: #ffffff;
+	color: #308cbc;
+	background-color: #ffffff;
 }
 
 .pagination {
@@ -249,6 +246,7 @@ background-color: #ffffff;
 .pagination .current-page {
   font-weight: 700;
 }
+
 .inline-list {
   padding-left: 0;
   margin-left: 0;
@@ -261,20 +259,20 @@ background-color: #ffffff;
 }
 
 small {
-font-size: 75%;
-color: $color-secondary;
+	font-size: 75%;
+	color: $color-secondary;
 }
 
 hr {
-margin-top: 1.5em;
-margin-bottom: 1.5em;
-border: 0;
-border-top: 1px solid $color-secondary;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	border: 0;
+	border-top: 1px solid $color-secondary;
 }
 
 article {
-list-style: none;
-margin-top: 0px;
+	list-style: none;
+	margin-top: 0px;
 }
 
 .stroke {
@@ -302,10 +300,12 @@ th, td {
 }
 
 .footnotes {
-border-top: 1px solid $color-secondary;
-font-size: 0.7em;
-margin-top: 3em;
+	border-top: 1px solid $color-secondary;
+	font-size: 0.7em;
+	margin-top: 3em;
 }
+
+/* Search box in index */
 
 #search-box {
 	margin: 5em;
@@ -325,6 +325,7 @@ margin-top: 3em;
 }
 
 /* Code highlight */
+
 h1 code,
 h2 code,
 h3 code,
@@ -337,6 +338,7 @@ td code {
   font-weight: bold;
   font-family: $font-code;
 }
+
 pre {
 	border-radius: 2px;
   margin-bottom: 1.5em; 
@@ -346,10 +348,12 @@ pre {
   overflow-y: auto;
   background: #EFE9C3;
 }
+
 pre code:not(.language-r) {
   color: #000000;
   font-weight: unset;  
 }
+
 .hll { background-color: #ffffcc }
 .c1 { color: #408080; 
   font-style: italic; 
