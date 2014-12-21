@@ -19,11 +19,11 @@ layout: default
 
 <h2><code title="Frame number V4: {{ page.v4 }}, V6: {{ page.v6 }}">{{ page.keyword }}</code></h2>
 
-<div class="stroke"><img title="{{ page.strokes }} stroke(s)" src="../strokes/{{ page.image }}.png" /></div>
+<div class="stroke"><img title="{{ page.strokes }} stroke{% if page.strokes != 1 %}s{% endif %}" src="../strokes/{{ page.image }}.png" /></div>
 
 <h2>Reading:</h2>
 
-<h3>On-Yomi: {{ page.on-yomi }} {% if page.kun-yomi %}— Kun-Yomi: {{ page.kun-yomi }}{% endif %}</h3>
+<h3>On-Yomi: <code>{{ page.on-yomi }}</code> {% if page.kun-yomi %}— Kun-Yomi: <code>{{ page.kun-yomi }}</code>{% endif %}</h3>
 
 {% if page.heisig %}
 	<h2>Heisig story:</h2>
