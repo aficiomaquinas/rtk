@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /full-list-remain/
+---
+
+<h1>rtk3-remain</h1>
+<hr>
+
+<article>
+{% assign count = '0' %}
+{% for post in site.pages %}
+{% if post.layout == 'kanji-remain' %}
+{% capture count %}{{ count | plus: '1' }}{% endcapture %}
+	<h3>{{count}}. <a href="..{{ post.url }}" title="{{ post.title }}">{{ post.kanji }}</a></h3>
+{% endif %}
+{% endfor %}
+</article>
+
+<hr>
+
+<nav class="pagination" role="navigation">
+<a class="btn btn-blue" href="..">/</a>
+</nav>
