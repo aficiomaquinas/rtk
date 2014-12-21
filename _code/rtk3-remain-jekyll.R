@@ -20,7 +20,6 @@ for (i in 1:1545) {
 											"\npermalink: /", s.ka,"/",
 											"\nredirect_from:",
 											"\n - /v4/", s.no, "/",
-											"\n - /", s.key, "/",
 											"\n---",
 											"\n\n", s.koo,
 											"\n")

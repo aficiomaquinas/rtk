@@ -3,7 +3,7 @@
 var docs =
 [
 {% for post in site.pages %}
-{% if post.layout == 'kanji' %}
+{% if post.layout == 'kanji' or post.layout == 'kanji-remain' %}
   {% include post.json %},
 {% endif %}  
 {% endfor %}

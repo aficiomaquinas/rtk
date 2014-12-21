@@ -46,7 +46,6 @@ for (i in 1:n) {
 										"\npermalink: /", l.no6,"/",
 										"\nredirect_from:",
 										"\n - /", l.ka, "/",
-										"\n - /", l.key, "/",
 										"\n - /v4/", l.no, "/",
 										ifelse(str_detect(l.ka,"・"),
 													 paste0("\n - /", str_sub(l.ka,1,1), "/",

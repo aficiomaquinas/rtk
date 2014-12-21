@@ -1,15 +1,15 @@
 ---
 layout: default
-permalink: /full-list-remain/
+permalink: /rtk1-v6/
 ---
 
-<h1>rtk3-remain</h1>
+<h1>rtk1-v6</h1>
 <hr>
 
 <article>
 {% assign count = '0' %}
 {% for post in site.pages %}
-{% if post.layout == 'kanji-remain' %}
+{% if post.layout == 'kanji' %}
 {% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<h3>{{count}}. <a href="..{{ post.url }}" title="{{ post.title }}">{{ post.kanji }}</a></h3>
 {% endif %}

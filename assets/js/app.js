@@ -31,12 +31,12 @@ $(function() {
         $.each(results, function(key, page) {
           entries.append('<article>'+
           '  <h3>'+
-          '    <a href=".'+page.id+'" title="Number frame V4: '+page.v4+', V6: '+page.v6+'">'+page.kanji+' '+page.keyword+'</a>'+
+          '    <a href=".'+page.id+'" title="Number frame V4: '+page.v4+'">'+page.kanji+' '+page.keyword+'</a>'+
           '  </h3>'+
           '</article>');
         });
       } else {
-        entries.append('<h4>Không tìm thấy từ :-(</h4>');
+        entries.append('<h4>Kanji not found :-(</h4>');
       }
 
       result.show();
