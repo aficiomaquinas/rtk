@@ -109,11 +109,11 @@ a {
 }
 
 a:visited {
-	color: $color-primary;
+	color: $color-secondary;
 }
 
 a:hover {
-	color: $color-secondary;
+	color: $color-tertiary;
 }
 
 a:focus {
@@ -305,6 +305,14 @@ th, td {
 	margin-top: 3em;
 }
 
+.left-arrow {
+  float: left;
+}
+
+.right-arrow {
+  float: right;
+}
+
 /* Search box in index */
 
 #search-box {
@@ -358,12 +366,4 @@ pre code:not(.language-r) {
 .c1 { color: #408080; 
   font-style: italic; 
   font-weight: unset;
-}
-
-.left-arrow {
-  float: left;
-}
-
-.right-arrow {
-  float: right;
 }
