@@ -1,0 +1,830 @@
+此	this here		6	2043		シ
+柴	brushwood		10	2044		サイ
+砦	fort		11	2045		サイ
+些	whit		8	2046		サ
+髭	beard		17	2047		シ
+禽	fowl		13	2049		キン
+檎	apple		17	2050		キン
+憐	sympathize with		15	2051		レン
+燐	phosphorus		16	2052		リン
+麟	camelopard		23	2053		リン
+鱗	scaled		23	2054		リン
+奄	encompassing		8	2055		エン
+庵	hermitage		11	2056		アン
+掩	shrouded		11	2057		エン
+悛	make amends		10	2059		シュン
+駿	steed		17	2060		シュン
+峻	steep		10	2061		シュン
+竣	complete a job		12	2062		ドウ
+舅	father-in-law		13	2064		キュウ
+鼠	mouse		13	2065		ソ
+鑿	bore		28	2066		サク
+艘	small craft		16	2068		ショウ
+犀	rhinoceros		11	2069		サイ
+皐	lunar month		11	2070		コウ
+畷	rice-field footpath		13	2072		テツ
+綴	mend		14	2073		テイ
+爾	let it be		14	2074		ジ
+鎧	suit of armor		18	2076		カイ
+凱	triumph		12	2077		ガイ
+呑	quaff		7	2080		トン
+韮	leek		12	2081		キュウ
+籤	lottery		23	2082		セン
+懺	penitential		20	2083		ザン
+芻	hay		10	2084		スウ
+雛	chick		18	2085		スウ
+趨	scurry		17	2086		スウ
+尤	understandably		4	2087		ユウ
+厖	immense		9	2089		ボウ
+或	a		8	2091		ワク
+兎	rabbit		7	2093		ト
+也	est		3	2094		ヤ
+尭	lofty		8	2095		ギョウ
+巴	comma-design		4	2096		ハ
+甫	offspring		7	2097		ホ
+疋	critters		5	2098		ヒキ
+菫	violet		12	2099		キン
+曼	mandala		11	2100		マン
+云	quote		4	2102		ウン
+卜	augury		2	2103		ボク
+喬	heaven-high		12	2104		キョウ
+莫	shalt		10	2105		バク
+倭	Yamato		10	2106		ワ
+侠	chivalry		8	2107		キョウ
+倦	fed up		11	2108		ケン
+佼	comely		8	2109		キョウ
+俄	abrupt		9	2110		ガ
+佃	work a field		7	2111		テン
+伶	minstrel		7	2112		レイ
+仔	animal offspring		5	2113		シ
+仇	foe		4	2114		キュウ
+伽	look after		7	2115		カ
+僻	biased		15	2117		ヘキ
+儲	make a profit		17	2118		チョ
+倖	bliss		10	2119		コウ
+僑	emigrant		14	2120		キョウ
+侃	integrity		8	2123		カン
+倶	mate		10	2124		グ
+侭	as is		8	2125		ジン
+佑	adjutant		7	2126		ユウ
+俣	fork in a road		9	2127		0
+傭	hire		13	2128		ヨウ
+偲	memorial		11	2129		サイ
+脩	dried meat		11	2130		シュウ
+倅	my son		10	2131		サイ
+做	make do		11	2132		サ
+冴	sharp		7	2134		ゴ
+凋	wilt		10	2135		チョウ
+凌	pull through		10	2136		リョウ
+凛	stately		15	2138		リン
+凧	kite		5	2139		0
+凪	lull		6	2140		0
+夙	earlybird		6	2141		シュク
+鳳	phoenix		14	2142		ホウ
+劉	slaughter		15	2143		リュウ
+剃	shave		9	2146		テイ
+厭	despondent		14	2149		エン
+雁	wild goose		12	2150		ガン
+贋	counterfeit		19	2151		ガン
+厨	kitchen		12	2152		シュウ
+仄	insinuate		4	2153		ソク
+哨	scout		10	2154		ショウ
+咎	reprehend		8	2156		キュウ
+囁	whisper		21	2157		ショウ
+喋	chatter		12	2158		チョウ
+嘩	quarrel		13	2160		カ
+噂	gossip		15	2161		ソン
+咳	cough		9	2162		カイ
+喧	clamor		12	2163		ケン
+叩	bash		5	2166		コウ
+嘘	fib		14	2167		キョ
+啄	peck at		10	2168		タク
+吠	barking		7	2170		ハイ
+吊	dangle		6	2171		チョウ
+噛	chew		15	2172		コウ
+叶	within my ability		5	2173		キョウ
+吻	sides of the mouth		7	2174		フン
+吃	stammer		6	2175		キツ
+噺	spin a tale		16	2176		0
+噌	miso		14	2177		ソウ
+邑	city walls		6	2180		ユウ
+呆	dumbfounded		7	2181		ホウ
+喰	ingest		12	2182		0
+埴	clay		11	2183		ショク
+坤	authochthonous		8	2184		コン
+壕	dugout		17	2186		コウ
+垢	blemish		9	2187		コウ
+坦	flat		8	2188		タン
+埠	wharf		11	2189		フ
+堰	dam		12	2191		エン
+堵	railing		11	2192		ト
+嬰	suckling infant		17	2193		エイ
+姦	violate		9	2194		カン
+婢	handmaiden		11	2196		ヒ
+婉	well finished		11	2197		エン
+娼	harlot		11	2198		ショウ
+妓	courtesan		7	2199		ギ
+娃	fair		9	2200		ア
+姪	niece		9	2201		テツ
+嬬	mistress		17	2203		ジュ
+姥	aged woman		9	2204		ボ
+姑	mother-in-law		8	2205		コ
+姐	young miss		8	2206		ソ
+嬉	overjoyed		15	2207		キ
+孕	expecting		5	2208		ヨウ
+孜	assiduous		7	2209		シ
+宥	soothe		9	2210		ユウ
+寓	imply		12	2211		グウ
+宏	extensive		7	2212		コウ
+牢	jail		7	2213		ロウ
+宋	Sung dynasty		7	2215		ソウ
+宍	venison		7	2216		ニク
+屠	butchering		11	2217		ト
+屁	fart		7	2218		ヒ
+屑	rubbish		10	2219		セツ
+屡	frequently		12	2221		ル
+屍	corpse		9	2222		シ
+屏	folding screen		9	2223		ヘイ
+嵩	high-reaching		13	2224		スウ
+崚	rugged mountains		11	2225		リョウ
+峨	high mountain		10	2226		ガ
+嶺	mountaintop		17	2228		レイ
+嵌	fit into		12	2229		カン
+嵯	rocky		13	2230		サ
+帖	quire		8	2231		チョウ
+幡	banner		15	2232		マン
+幟	pennant		15	2233		シ
+庖	cleaver		8	2234		ホウ
+廓	licensed quarters		14	2235		カク
+庇	overhang		7	2236		ヒ
+鷹	hawk		24	2237		ヨウ
+庄	shire		6	2238		ショウ
+廟	tomb sanctuary		15	2239		ビョウ
+彊	strengthen		16	2240		キョウ
+弛	loosen		6	2242		チ
+粥	rice gruel		12	2243		イク
+挽	lathe		10	2244		バン
+撞	bump into		15	2245		ドウ
+扮	disguise		7	2246		フン
+掠	pillage		11	2247		リャク
+掴	clutch		11	2249		カク
+捺	impress		11	2250		ナツ
+掻	scratch		11	2252		ソウ
+撰	assortment		15	2253		サン
+揃	muster		12	2255		セン
+捌	deal with		10	2256		ハツ
+撹	churn up		15	2257		カク
+摺	rubbing		14	2258		ショウ
+按	press down on		9	2259		アン
+播	disseminate		15	2262		ハ
+揖	interpretation		12	2263		イツ
+托	receptable		6	2264		タク
+捧	dedicate (RTK3)		11	2265		ホウ
+撚	twirl		15	2266		ネン
+挺	counter for tools		10	2267		チョウ
+擾	commotion		18	2268		ジョウ
+撫	petting		15	2270		ブ
+撒	sprinkle		15	2271		サン
+擢	outstanding		17	2272		テキ
+捷	spoils		11	2273		ショウ
+抉	gouge out		7	2274		ケツ
+怯	wince		8	2275		キョウ
+惟	ponder		11	2276		イ
+惚	infatuation		11	2277		コツ
+怜	quickwitted		8	2278		レイ
+惇	considerate		11	2279		シュン
+恰	as if		9	2281		コウ
+恢	enlarge		9	2282		カイ
+悌	respect for elders		10	2283		テイ
+澪	canal		16	2285		レイ
+洸	glistening		9	2286		コウ
+滉	bounding main		13	2287		コウ
+漱	gargle		14	2288		ソウ
+洲	continent		9	2289		シュウ
+洵	swirling waters		9	2290		ジュン
+滲	seep		14	2291		シン
+洒	rinse		9	2292		シャ
+沐	douse		7	2293		モク
+泪	teardrops		8	2294		ルイ
+渾	gushing		12	2295		コン
+涜	blaspheme		10	2297		トク
+梁	roofbeam		11	2299		リョウ
+澱	sediment		16	2300		デン
+洛	old Kyoto		9	2302		ラク
+汝	thou		6	2303		ジョ
+漉	filter		14	2304		ロク
+瀕	on the verge of		20	2305		ヒン
+濠	moat		17	2306		ゴウ
+溌	spray		12	2307		ハツ
+湊	port		12	2309		ソウ
+淋	solitude		11	2310		リン
+浩	abounding		10	2311		コウ
+汀	water's edge		5	2312		テイ
+鴻	large goose		17	2313		コウ
+潅	souse		14	2314		カン
+溢	brimming		13	2315		イツ
+湛	inundate		12	2317		タン
+淳	immaculate		11	2318		ジュン
+渥	moisten		12	2320		アク
+灘	rough seas		21	2321		タン
+汲	draw water		7	2322		キュウ
+瀞	river pool		17	2323		セイ
+溜	cumulation		13	2324		リュウ
+渕	abyss		11	2325		エン
+沌	chaos		7	2326		トン
+濾	strainer		18	2328		ロ
+濡	drench		17	2329		ジュ
+淀	eddy		11	2330		テン
+涅	fabrication		10	2331		ネツ
+斧	hatchet		8	2333		フ
+爺	grandpa		13	2334		ヤ
+猾	sly		13	2335		カツ
+猥	indecent		12	2336		ワイ
+狡	cunning		9	2337		コウ
+狸	racoon dog		10	2338		リ
+狼	wolf		10	2339		ロウ
+狽	flustered		10	2340		ケン
+狗	pup		8	2341		ク
+狐	fox		9	2342		コ
+狛	a-un		8	2343		ハク
+獅	lion		13	2345		シ
+狒	baboon		8	2346		ヒ
+莨	tobacco		11	2347		ロウ
+茉	jasmine		8	2348		マツ
+莉	hawthorn		10	2349		リ
+苺	strawberry		9	2350		バイ
+萩	bush clover		12	2351		シュウ
+藝	technique [old]		19	2352		ゲイ
+薙	trim		16	2353		テイ
+蓑	straw raincoat		13	2354		サ
+苔	moss		8	2356		タイ
+蕩	prodigal		15	2357		トウ
+蔓	tendril		14	2359		マン
+蓮	lotus		12	2360		レン
+芙	lotus flower		7	2361		フ
+蓉	lotus blossom		13	2362		ヨウ
+蘭	orchid		19	2363		ラン
+芦	hollow reed		7	2364		ロ
+薯	yam		17	2365		ショ
+菖	iris		11	2366		ショウ
+蕉	banana		15	2367		ショウ
+蕎	buckwheat		15	2369		キョウ
+蕗	butterbur		16	2370		ロ
+茄	eggplant		8	2372		カ
+蔭	behind the scenes		13	2374		イン
+蓬	wormwood		14	2375		ホウ
+芥	mustard		7	2376		カイ
+萌	germinate		11	2377		ホウ
+葡	grape		12	2378		ブ
+萄	grape vine		11	2379		ドウ
+蘇	resurrect		19	2380		ソ
+蕃	grow wild		16	2381		バン
+苓	cocklebur		8	2382		レイ
+菰	rush mat		12	2383		コ
+蒙	darken		14	2384		モウ
+茅	grassy reed		8	2385		ボウ
+芭	plantain		7	2386		バ
+苅	mow		7	2387		ガイ
+葱	onion		12	2389		ソウ
+葵	hollyhock		12	2391		キ
+葺	shingling		12	2392		シュウ
+蕊	stamen		15	2393		ズイ
+茸	mushroom		9	2394		ジョウ
+蒔	sowing		13	2395		シ
+芹	parsley		7	2396		キン
+苫	thatching		8	2397		セン
+蒼	pale blue		14	2399		ソウ
+藁	straw		17	2400		コウ
+蕪	turnip		15	2401		ブ
+藷	sweet potato		18	2402		ショ
+薮	quack		16	2403		ソウ
+蒜	garlic		13	2404		サン
+蕨	bracken		15	2405		ケツ
+蔚	grow plentiful		14	2406		ウツ
+茜	madder red		9	2407		セン
+莞	candle rush		10	2408		カン
+蒐	collector		14	2409		シュウ
+菅	sedge		11	2410		カン
+葦	ditch reed		13	2411		イ
+迪	Way		7	2412		テキ
+辿	track down		5	2413		テン
+這	crawl		9	2414		シャ
+迂	detour		5	2415		ウ
+遁	elude (RTK3)		11	2416		トン
+逢	tryst		9	2417		ホウ
+遥	far off		11	2418		ヨウ
+遼	remote (RTK3)		14	2419		リョウ
+逼	pressing		11	2420		フク
+迄	until		5	2421		キツ
+逗	standstill		9	2423		トウ
+郁	cultured		8	2424		イク
+鄭	courtesy		14	2425		テイ
+隈	nook		12	2427		ワイ
+憑	possessed		16	2428		ヒョウ
+惹	attract		13	2429		ジャク
+悉	without exception		11	2430		シツ
+忽	instantaneously		8	2431		コツ
+惣	firstborn son		12	2432		ソウ
+愈	in the nick of time		13	2433		ユ
+恕	sensitive		10	2434		ジョ
+昴	overarching		9	2435		コウ
+晋	progress		10	2436		シン
+晟	aglow		11	2438		セイ
+暈	halo		13	2439		ウン
+暉	glitter		13	2440		キ
+旱	dry weather		7	2441		カン
+晏	clear skies		10	2442		アン
+晨	morrow		11	2443		シン
+晒	bleaching		10	2444		サイ
+晃	limpid		10	2446		コウ
+曝	air out		19	2447		バク
+曙	dawn		17	2448		ショ
+昂	elevate		8	2449		コウ
+昏	dusk		8	2451		コン
+晦	last day of the month		10	2452		カイ
+膿	pus		17	2455		ノウ
+腑	viscera		12	2456		フ
+胱	bladder		10	2457		コウ
+胚	embryo		9	2458		ハイ
+肛	anus		7	2459		コウ
+脆	fragile		10	2462		ゼイ
+肋	rib		6	2463		ロク
+腔	body cavity		12	2465		コウ
+肱	armrest		8	2469		コウ
+胡	uncivilized		9	2470		ウ
+楓	maple tree		13	2471		フウ
+楊	purple willow		13	2473		ヨウ
+椋	Oriental elm		12	2474		リョウ
+榛	hazel		14	2475		シン
+櫛	comb		17	2476		シツ
+槌	wooden hammer		13	2477		ツイ
+樵	mallet		16	2478		ショウ
+梯	ladder		11	2479		テイ
+柑	citrus tree		9	2482		コン
+杭	picket		8	2484		コウ
+柊	holly		9	2485		シュ
+柚	citron		9	2486		ユ
+椀	wooden bowl		12	2487		ワン
+栂	hemlock		9	2488		0
+柾	spindle tree		9	2489		0
+榊	sacred Shinto tree		13	2490		0
+樫	evergreen oak		16	2491		0
+槙	Chinese black pine		14	2492		テン
+楢	Japanese oak		13	2493		シュウ
+橘	mandarin orange		16	2494		キツ
+桧	Japanese cypress		10	2495		カイ
+棲	roost		12	2496		セイ
+栖	nestle		10	2497		セイ
+桔	bellflower		10	2499		キツ
+杜	temple grove		7	2500		ト
+杷	grain rake		8	2501		ハ
+梶	oar		11	2502		ビ
+杵	wooden pestle		8	2503		ショ
+杖	cane		7	2504		ジョウ
+樽	barrel		16	2506		ソン
+櫓	turret		19	2508		ロ
+橿	sturdy oak		17	2509		キョウ
+杓	wooden ladle		7	2510		シャク
+李	damson		7	2511		リ
+棉	raw cotton		12	2512		メン
+楯	escutcheon		13	2513		ジュン
+榎	hackberry		14	2514		カ
+樺	birch		14	2515		カ
+槍	lance		14	2516		ソウ
+柘	wild mulberry		9	2517		シャ
+梱	bale		11	2518		コン
+枇	loquat		8	2519		ビ
+樋	downspout		14	2520		トウ
+橇	sled		16	2521		キョウ
+槃	enjoyment		14	2522		ハン
+栞	bookmark		10	2523		カン
+椰	coconut tree		13	2524		ヤ
+檀	sandalwood		17	2525		ダン
+樗	plotosid		15	2526		チョ
+槻	zelkova		15	2527		キ
+椙	cryptomeria		12	2528		0
+彬	copious		11	2529		ヒン
+桶	bucket		11	2530		ヨウ
+楕	ellipse		13	2531		ダ
+樒	star-anise		15	2532		ミツ
+毬	furball		11	2533		キュウ
+燿	twinkle		18	2534		ヨウ
+燎	watchfire		16	2535		リョウ
+炬	torch		9	2536		コ
+焚	kindle		12	2537		フン
+灸	moxa		7	2538		キュウ
+燭	candlelight		17	2539		ソク
+煽	fanning		14	2540		セン
+煤	soot		13	2541		バイ
+煉	firing		12	2542		レン
+燦	dazzling		17	2543		サン
+灼	refulgent		7	2544		シャク
+烙	branding		10	2545		ラク
+焔	flames		12	2546		エン
+熔	fuse metal		14	2547		ヨウ
+烹	stew		10	2549		ホウ
+牽	tug		11	2550		ケン
+牝	female animal		6	2551		ヒン
+牡	male animal		7	2552		ボ
+瑶	precious stone		13	2553		ヨウ
+琳	chime		12	2554		リン
+琉	lapis lazuli		11	2557		リュウ
+瑳	burnish		14	2559		サ
+琢	hone		11	2560		タク
+珊	coral		8	2561		サン
+瑚	coral reef		13	2562		コ
+瑞	fortunate		13	2563		ズイ
+珪	silicon		10	2564		ケイ
+玖	jet		7	2565		キュウ
+瑛	crystal stone		12	2566		エイ
+玲	tinkling		9	2568		レイ
+畢	lastly		10	2570		ヒツ
+畦	paddy-field ridge		11	2571		ケイ
+痒	itch		11	2572		ヨウ
+痰	phlegm		13	2573		タン
+疹	measles		10	2574		シン
+痔	hemorrhoids		11	2575		ヂ
+癌	cancer		17	2576		ガン
+痺	paralysis		13	2579		ヒ
+眸	apple of the eye		11	2580		ボウ
+眩	dizzy		10	2581		ゲン
+雉	pheasant		13	2584		ジ
+矩	carpenter's square		10	2585		ク
+磐	crag		15	2586		バン
+碇	grapnel		13	2587		テイ
+碧	blue-green		14	2588		ヘキ
+硯	inkstone		12	2589		ケン
+砥	grindstone		10	2590		シ
+碗	teacup		13	2591		ワン
+碍	obstacle		13	2592		ガイ
+碩	illustrious		14	2593		セキ
+磯	rocky beach		17	2594		キ
+砺	whetstone		10	2595		レイ
+碓	mill		13	2596		カク
+禦	fend off		17	2597		ギョ
+祷	beseech		19	2598		トウ
+祐	ancestral tablet		9	2599		ユウ
+祇	local god		8	2600		ギ
+祢	ancestral shrine		9	2601		ネ
+禄	salarium		12	2602		ロク
+禎	felicitation		13	2603		テイ
+秤	balancing scales		10	2604		ショウ
+黍	millet		12	2605		ショ
+禿	bald		7	2606		トク
+稔	bear fruit		13	2607		ネン
+稗	crabgrass		13	2608		ハイ
+穣	bumper crop		18	2609		ジョウ
+稜	imperial authority		13	2610		リョウ
+稀	sparse		12	2611		キ
+穆	obeisant		16	2612		ボク
+窺	peep		16	2613		キ
+窄	tight		10	2614		サク
+穿	drill		9	2616		セン
+竃	kitchen stove		17	2617		ソウ
+竪	longness		14	2618		ジュ
+颯	rustling		14	2619		サツ
+站	outpost		10	2620		タン
+靖	repose		13	2621		セイ
+妾	concubine		8	2622		ショウ
+衿	lapel		9	2623		キン
+袷	lined kimono		11	2625		コウ
+袴	pleated skirt		11	2626		コ
+襖	sliding door		18	2627		オウ
+笙	Chinese panpipe		11	2628		ショウ
+筏	raft		12	2629		バツ
+簾	bamboo blinds		19	2630		レン
+箪	rattan box		15	2631		タン
+竿	pole		9	2632		カン
+箆	spatula		14	2633		ヘイ
+箔	foil		14	2634		ハク
+笥	wardrobe		11	2635		ス
+箭	arrow shaft		15	2636		セン
+筑	ancient harp		12	2637		チク
+篠	slender bamboo		17	2639		ゾウ
+纂	redaction		20	2641		サン
+竺	bamboo cane		8	2642		ジク
+箕	winnowing fan		14	2643		キ
+笈	backpack		9	2644		キュウ
+篇	livraison		15	2645		ヘン
+筈	should		12	2646		カツ
+簸	winnow		19	2647		ハ
+粕	settlings		11	2648		ハク
+糟	lees		17	2649		コウ
+糊	paste		15	2650		コ
+籾	unhulled rice		9	2651		0
+糠	rice bran		17	2652		コウ
+糞	excrement		17	2653		フン
+粟	foxtail millet		12	2654		ゾク
+繋	link up		19	2655		ケイ
+綸	twine		14	2656		リン
+絨	carpet yarn		12	2657		ジュウ
+絆	ties		11	2658		ハン
+緋	scarlet		14	2659		ヒ
+綜	synthesis		14	2660		ソウ
+紐	string		10	2661		チュウ
+紘	chinstrap		10	2662		コウ
+纏	summarize		21	2663		テン
+絢	gorgeous		12	2664		ケン
+繍	embroidery		17	2665		シュウ
+紬	pongee		11	2666		チュウ
+綺	ornate		14	2667		キ
+綾	damask		14	2668		リン
+絃	catgut		11	2669		ゲン
+縞	stripe		16	2671		コウ
+綬	gimp		14	2672		ジュ
+紗	gossamer		10	2673		サ
+舵	rudder		11	2674		ダ
+聯	strung together		17	2676		レン
+聡	attentive		14	2677		ソウ
+聘	summons		13	2678		ヘイ
+耽	addiction		10	2679		タン
+耶	exclamation		9	2680		ヤ
+蚤	flea		10	2681		ソウ
+蟹	crab		19	2682		カイ
+蛋	protein		11	2683		タン
+蟄	hibernation		17	2684		チツ
+蝿	housefly		15	2685		ヨウ
+蟻	ant		19	2686		ギ
+蝋	wax		14	2688		ロウ
+蝦	shrimp		15	2689		カ
+蛸	octopus		13	2690		ソウ
+螺	screw		17	2691		ラ
+蝉	cicada		10	2692		セン
+蛙	frog		12	2693		ア
+蛾	moth		13	2694		ギ
+蛤	clam		12	2695		コウ
+蛭	leech		12	2696		シツ
+蛎	oyster		11	2697		レイ
+罫	ruled lines		13	2698		ケイ
+袈	stole		11	2700		ケ
+裟	monk's sash		13	2701		サ
+截	incision		14	2703		セツ
+哉	I wonder		9	2704		サイ
+詢	counsel		13	2705		ジュン
+諄	polite		15	2706		シュン
+讐	vendetta		23	2707		シュウ
+諌	remonstrate		15	2708		カン
+諒	verify		15	2710		リョウ
+讃	compliment		22	2711		サン
+訊	query		10	2713		ジン
+訣	split up		11	2714		ケツ
+詑	prevarication		12	2718		イ
+誼	familiarity		15	2719		ギ
+謬	fallible		18	2720		ビュウ
+詫	beg pardon		13	2721		タ
+諏	advise		15	2722		シュ
+諺	proverb		16	2723		ゲン
+誹	slander		15	2724		ヒ
+謂	so-called		16	2725		イ
+諜	secret agent		16	2726		チョウ
+註	footnote		12	2727		チュウ
+譬	parable		20	2728		ヒ
+轟	rumble		21	2729		コウ
+輔	reinforce		14	2730		ホ
+輻	spoke		16	2731		フク
+輯	assemble		16	2732		シュウ
+豹	panther		10	2734		ヒョウ
+賎	despicable		13	2735		セン
+貰	get		12	2737		セイ
+賑	bustling		14	2739		シン
+躓	stumble		22	2740		チ
+蹄	hoof		16	2741		テイ
+蹟	vestiges		18	2743		セキ
+跨	straddle		13	2744		コ
+跪	kneel		13	2745		キ
+醤	soy sauce		17	2746		ショウ
+醍	whey		16	2747		ダイ
+醐	ghee		16	2749		ゴ
+醇	strong saké		15	2751		ジュン
+麹	malt		15	2753		キク
+釦	button		11	2754		コウ
+銚	keg		14	2755		チョウ
+鋤	plow		14	2756		ジョ
+鏑	arrowhead		19	2758		テキ
+鋸	handsaw		16	2759		キョ
+錐	awl		16	2760		スイ
+鍬	hoe		17	2762		ショウ
+鋲	rivet		15	2763		0
+錫	tin		16	2764		セキ
+錨	anchor		16	2765		ビョウ
+釘	nail		10	2766		テイ
+鑓	javelin		21	2767		0
+鋒	sword's point		15	2768		ホウ
+鎚	hammer		17	2769		ツイ
+鉦	carillion		13	2770		セイ
+錆	rust		16	2771		ショウ
+鍾	cluster		17	2772		ショウ
+鋏	scissors		15	2773		キョウ
+閃	flash		10	2774		セン
+悶	agony		12	2775		モン
+閤	side gate		14	2776		コウ
+雫	trickle		11	2778		ダ
+霞	haze		17	2779		カ
+翰	quill		16	2780		カン
+斡	auspices		14	2781		アツ
+鞍	saddle		15	2782		アン
+鞭	whip		18	2783		ベン
+鞘	saddle straps		16	2784		ショウ
+鞄	briefcase		14	2785		ハク
+靭	pliable		12	2786		ジン
+鞠	terminate		17	2787		キク
+顛	overturn		19	2789		テン
+穎	brush tip		16	2790		エイ
+頗	exceedingly		14	2793		ハ
+頌	accolade		13	2794		ショウ
+頚	neck and throat		14	2796		ケイ
+餐	repast		16	2798		サン
+饗	feast		22	2799		キョウ
+蝕	eclipse		14	2800		ショク
+飴	sweets		13	2801		イ
+駕	stretcher		15	2803		カ
+騨	piebald		19	2804		タン
+馳	rush		13	2805		チ
+騙	cheat		19	2806		ヘン
+馴	tame		13	2807		ジュン
+駁	rebuttal		14	2808		ハク
+駈	gallop		15	2809		ク
+驢	donkey		26	2810		ロ
+鰻	eel		22	2811		マン
+鯛	sea bream		19	2812		チョウ
+鰯	sardine		21	2813		0
+鱒	trout		23	2814		ソン
+鮭	salmon		17	2815		カイ
+鮪	tuna		17	2816		キ
+鮎	sweet smelt		16	2817		デン
+鯵	horse mackerel		19	2818		ソウ
+鱈	cod		22	2819		セツ
+鯖	mackerel		19	2820		セイ
+鮫	shark		17	2821		コウ
+鰹	bonito		22	2822		ケン
+鰍	bullhead		20	2823		シュウ
+鰐	alligator		20	2824		ガク
+鮒	crucian		16	2825		ホ
+鮨	sushi		17	2826		シ
+鰭	fish fin		21	2827		キ
+鴎	seagull		14	2828		オウ
+鵬	roc		19	2829		ホウ
+鸚	parakeet		28	2830		イン
+鵡	parrot		19	2831		ブ
+鵜	cormorant		18	2832		テイ
+鷺	heron		24	2833		ロ
+鷲	eagle		23	2834		シュウ
+鴨	wild duck		16	2835		オウ
+鳶	kite falcon		14	2836		エン
+梟	owl		11	2837		キョウ
+塵	dust		14	2838		チン
+麒	giraffe		19	2840		キ
+瞑	close the eyes		15	2842		メイ
+暝	murky		14	2843		メイ
+坐	sitting in mediation		7	2844		ザ
+朔	first day of the month		10	2846		サク
+曳	drag		7	2848		エイ
+洩	dribble out		9	2849		エイ
+彗	comet		11	2850		スイ
+慧	astute		15	2851		ケイ
+嘉	applaud		14	2852		カ
+兇	evil		6	2853		キョウ
+兜	helmet		11	2854		トウ
+欝	depressed		25	2856		ウツ
+劫	kalpa		7	2857		コウ
+歎	bemoan		14	2859		タン
+輿	palanquin		17	2860		ヨ
+巽	southeast		12	2861		ソン
+歪	warped		9	2862		ワイ
+翠	jade green		14	2863		スイ
+黛	blue-black		16	2864		タイ
+鼎	tripod		13	2865		テイ
+鹵	rocksalt		11	2866		ロ
+鹸	lye		19	2867		ケン
+虔	reserved		10	2868		ケン
+燕	swallow		16	2869		エン
+嘗	lick		14	2870		ショウ
+殆	almost		9	2871		タイ
+孟	start		8	2872		モウ
+牌	mahjong tiles		12	2873		ハイ
+覗	peek		12	2875		シ
+彪	mottled		11	2876		ヒョウ
+秦	Manchu dynasty		10	2877		シン
+雀	sparrow		11	2878		ジャク
+隼	peregrine falcon		10	2879		シュン
+耀	shimmering		20	2880		ヨウ
+夷	ebisu		6	2881		イ
+嚢	cyst		22	2883		ノウ
+暢	carefree		14	2885		チョウ
+廻	circling		9	2886		カイ
+欣	elation		8	2888		キン
+毅	stalwart		15	2889		キ
+斯	this		12	2890		シ
+匙	wooden spoon		11	2891		シ
+匡	set straight		6	2892		キョウ
+肇	founding		14	2893		チョウ
+麿	Utamaro		18	2894		0
+叢	conglomerate		18	2895		ソウ
+肴	entreat		8	2896		コウ
+斐	symmetrically patterned		12	2897		ヒ
+卿	magistrate		12	2898		ケイ
+翫	fiddle with		15	2899		ガン
+於	within		8	2900		オ
+套	hackneyed		10	2901		トウ
+叛	rebellion		9	2902		ハン
+尖	sharp point		6	2903		セン
+壷	crock		11	2904		コ
+叡	sapience		16	2905		エイ
+酋	chieftain		9	2906		シュウ
+鴬	nightingale		16	2907		オウ
+赫	incandescent		14	2908		カク
+臥	supinate		9	2909		ガ
+甥	nephew		13	2910		セイ
+瓢	gourd		17	2911		ヒョウ
+琵	biwa		12	2912		ビ
+琶	lute		12	2913		ハ
+叉	forked		3	2914		サ
+舜	rose of Sharon		13	2915		シュン
+畠	dry field		10	2916		0
+圃	vegetable patch		10	2918		ホ
+丞	helping hand		6	2919		ジョウ
+亮	translucent		9	2920		リョウ
+胤	blood relative		9	2921		イン
+疏	transcription		12	2922		ソ
+膏	ointment		14	2923		コウ
+魁	pioneer		14	2924		カイ
+馨	ambrosial		20	2925		ケイ
+牒	label		13	2926		チョウ
+瞥	glimpse		17	2927		ベツ
+睾	testicle		14	2929		コウ
+巫	sorceress		7	2930		フ
+敦	empathetic		12	2931		トン
+奎	Andromeda		9	2932		ケイ
+翔	soar		12	2933		ショウ
+皓	beaming		12	2934		コウ
+黎	tenebrous		15	2935		レイ
+赳	bold		10	2936		キュウ
+已	stop short		3	2937		イ
+棘	thornbush		12	2938		キョク
+聚	crowd		14	2939		シュウ
+甦	resucitate		12	2940		ソ
+剪	pruning		11	2941		セン
+躾	upbringing		16	2942		0
+夥	plentiful		14	2943		カ
+鼾	snore		17	2944		カン
+祟	cast a spell		10	2945		スイ
+粁	kilometer		9	2946		0
+糎	centimeter		15	2947		0
+粍	millimeter		10	2948		0
+噸	ton		16	2949		トン
+哩	mile		10	2950		リ
+浬	nautical mile		10	2951		リ
+吋	inch		6	2952		トウ
+呎	feet		7	2953		シャク
+梵	brahman		11	2954		ボン
+陀	Shakyamuni Buddha		8	2955		タ
+薩	bodhisattva		16	2956		サツ
+菩	bo tree		11	2957		ボ
+唖	babble		10	2958		ア
+迦	Sanskrit ka		7	2959		カ
+牟	moo		6	2961		ボウ
+珈	jeweled hairpin		9	2962		カ
+琲	beaded hairpin		12	2963		ハイ
+檜	Japanese cypress [old]		17	2964		カイ
+轡	bridle's bit		22	2965		ヒ
+淵	abyss [old]		12	2966		エン
+伍	V		6	2967		ゴ
+什	X		4	2968		ジュウ
+萬	ten thousand [old]		12	2969		マン
+邁	pass through		15	2970		マイ
+逞	tough		9	2971		テイ
+燈	lamp [old]		16	2972		トウ
+裡	back [old]		12	2973		リ
+薗	park [alternate]		16	2974		エン
+鋪	shop [alternate]		15	2975		ホ
+嶋	island [alternate]		14	2976		トウ
+峯	summit [alternate]		10	2977		ホウ
+巌	boulder [old]		20	2978		ガン
+埜	plains [old]		11	2979		ヤ
+舘	Bldg. [old]		16	2980		カン
+龍	dragon [old]		16	2981		リュウ
+寵	patronage		19	2982		チョウ
+聾	deafness		22	2983		ロウ
+慾	longing [old]		15	2984		ヨク
+亙	span [old]		6	2985		コウ
+躯	body [old]		11	2986		ク
+嶽	Point [old]		17	2987		ガク
+國	country [old]		11	2988		コク
+脛	shin		11	2989		ケイ
+勁	formidable		9	2990		ケイ
+祀	enshrine		8	2992		シ
+祓	exorcism		10	2993		フツ
+躇	dither		19	2994		チョ
+壽	longevity [old]		14	2995		ジュ
+躊	hesitate		21	2996		チュウ
+饅	bean jam		20	2998		マン
+嘔	retch		14	2999		オウ
+鼈	snapping turtle		25	3000		ベツ
+亨	go smoothly		7	3001		コウ
+侑	condone		8	3002		ユウ
+梧	parasol tree		11	3003		ゴ
+欽	circumspect		12	3004		キン
+煕	cheer		13	3005		キ
+而	and then		6	3006		ジ
+掟	mandate		11	3007		トウ
+籠	cage [old]		22	3028		

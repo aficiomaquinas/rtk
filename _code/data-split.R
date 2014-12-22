@@ -106,4 +106,4 @@ for (i in 1:nk) {
 }
 
 saveRDS(koo.v4,"rtk1-v6-koohii.rds")
-saveRDS(s.v4,"rtk3-remain.rds")
+saveRDS(s.v4,"rtk3-remain-koohii.rds")

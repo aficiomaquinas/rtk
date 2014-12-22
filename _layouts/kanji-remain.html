@@ -10,8 +10,14 @@ layout: default
 
 <h2><code title="Frame number V4: {{ page.v4 }}">{{ page.keyword }}</code></h2>
 
+<h2>[{{ page.strokes }}]</h2>
 
-<h2>Koohii stories:</h2>
+{% if page.on-yomi %}
+<h2>Reading:</h2>
+
+<h3>On-Yomi: <a>{{ page.on-yomi }}</a></h3>
+{% endif %}
+
 {{ content }}
 
 <hr>
