@@ -7,6 +7,3 @@ permalink: /:title/
 
 exclude:
  - README.md
-
-gems:
-  - jekyll-redirect-from
