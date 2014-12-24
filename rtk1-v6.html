@@ -12,7 +12,7 @@ title: rtk1-v6
 {% for post in site.pages %}
 {% if post.layout == 'kanji' %}
 {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-	<h3>{{count}}. <a href="..{{ post.url }}" title="{{ post.title }}">{{ post.kanji }}</a></h3>
+	<h3>{{count}}. <a href="..{{ post.url }}index.html" title="{{ post.title }}">{{ post.kanji }}</a></h3>
 {% endif %}
 {% endfor %}
 </article>
@@ -20,5 +20,5 @@ title: rtk1-v6
 <hr>
 
 <nav class="pagination" role="navigation">
-<a class="btn btn-blue" href="..">/</a>
+<a class="btn btn-blue" href="../index.html">/</a>
 </nav>

@@ -7,6 +7,16 @@ koo.v4 <- readRDS("rtk1-v6-koohii.rds")
 koo.v4 <- as.data.frame(koo.v4)
 # Combine two data in each Jekyll post
 n <- length(data)
+l.nav <- matrix(rep("",2*n), ncol=2,
+								dimnames=list(1:n,c("no6","ka")))
+for (i in 1:n) {
+	line <- data[i]
+	line <- str_split(line, "\037")
+	l <- line[[1]]
+	l.nav[i,1] <- l[3]
+	l.nav[i,2] <- l[5]
+}
+l.nav <- as.data.frame(l.nav, stringsAsFactors = FALSE)
 for (i in 1:n) {
 	line <- data[i]
 	line <- str_split(line, "\037")
@@ -47,17 +57,16 @@ for (i in 1:n) {
 										"\nimage: ", l.img,
 										"\non-yomi: ", l.on,
 										ifelse(l.kun=="","",paste0("\nkun-yomi: ", l.kun)),
-										"\npermalink: /", l.ka,"/",
-										
-										#"\nredirect_from:",
+										"\npermalink: /", 
+										ifelse(str_detect(l.ka,"・"),str_sub(l.ka,1,1),l.ka),"/",
+										"\nredirect_from:",
 										#"\n - /", l.no6, "/",
-										#"\n - /v4/", l.no, "/",
-										
-										ifelse(str_detect(l.ka,"・"),
-													 paste0("\n - /", str_sub(l.ka,1,1), "/",
-													 "\n - /", str_sub(l.ka,3,3), "/"),""),
-										"\nprev: ", as.numeric(l.no6) - 1,
-										"\nnext: ", as.numeric(l.no6) + 1,
+										"\n - /v4/", l.no, "/",
+										#ifelse(str_detect(l.ka,"・"),
+										#			 paste0("\n - /", str_sub(l.ka,1,1), "/",
+										#			 "\n - /", str_sub(l.ka,3,3), "/"),""),
+										"\nprev: ", l.nav[l.nav$no6==(as.numeric(l.no6)-1),2],
+										"\nnext: ", l.nav[l.nav$no6==(as.numeric(l.no6)+1),2],
 										ifelse(l.pri=="","",
 													 paste0("\nprimit: \"",l.pri,"\"")),
 										ifelse(l.hei=="","",
