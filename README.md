@@ -1,8 +1,9 @@
 [rtk]
 =====
 
-Đây là nhánh rtk với 2200 hán tự rtk1-v6 và 791 hán tự rtk3-remain.
+Đây là nhánh rtk với 2200 hán tự rtk1-v6 và 830 hán tự rtk3-remain.
 
-Tổng cộng 2991 hán tự.
+Tổng cộng 3030 hán tự.
 
-Full chưa nhỉ? :)
+## Cập nhật lần cuối: 24/12/2014.
+
