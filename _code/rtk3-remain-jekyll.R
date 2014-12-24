@@ -25,6 +25,6 @@ for (i in 1:830) {
 										"\n\n", ifelse(s.koo=="","","## Koohii stories: "),
 										"\n\n",s.koo,
 										"\n")
-	s.path <- paste0("/data/repos/manhtai/rtk/rtk3-remain/",s.no,".md")
+	s.path <- paste0("/data/repos/hochanh/rtk/rtk3-remain/",s.no,".md")
 	writeLines(content, s.path)
 }
