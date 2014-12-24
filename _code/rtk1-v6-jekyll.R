@@ -24,6 +24,10 @@ for (i in 1:n) {
 	l.hei <- str_replace_all(l.hei, "\"", "&quot;")
 	l.hei <- str_replace_all(l.hei, "<div>", "\n")
 	l.hei <- str_replace_all(l.hei, "</div>", "")
+	l.com <- l[12]
+	l.com <- str_replace_all(l.com, "\"", "&quot;")
+	l.com <- str_replace_all(l.com, "<div>", "\n")
+	l.com <- str_replace_all(l.com, "</div>", "")
 	l.on <- l[17]
 	l.kun <- l[18]
 	l.word <- l[19]
@@ -43,22 +47,26 @@ for (i in 1:n) {
 										"\nimage: ", l.img,
 										"\non-yomi: ", l.on,
 										ifelse(l.kun=="","",paste0("\nkun-yomi: ", l.kun)),
-										"\npermalink: /", l.no6,"/",
-										"\nredirect_from:",
-										"\n - /", l.ka, "/",
-										"\n - /v4/", l.no, "/",
+										"\npermalink: /", l.ka,"/",
+										
+										#"\nredirect_from:",
+										#"\n - /", l.no6, "/",
+										#"\n - /v4/", l.no, "/",
+										
 										ifelse(str_detect(l.ka,"・"),
 													 paste0("\n - /", str_sub(l.ka,1,1), "/",
 													 "\n - /", str_sub(l.ka,3,3), "/"),""),
 										"\nprev: ", as.numeric(l.no6) - 1,
 										"\nnext: ", as.numeric(l.no6) + 1,
-										ifelse(l.hei=="","",
-													 paste0("\nheisig: \"",l.hei,"\"")),
 										ifelse(l.pri=="","",
 													 paste0("\nprimit: \"",l.pri,"\"")),
+										ifelse(l.hei=="","",
+													 paste0("\nheisig: \"",l.hei,"\"")),
+										ifelse(l.com=="","",
+													 paste0("\ncommen: \"",l.com,"\"")),
 										"\n---",
 										"\n\n", l.koo,
 										"\n")
-	l.path <- paste0("/data/repos/manhtai/rtk/rtk1-v6/",l.na,".md")
+	l.path <- paste0("/data/repos/hochanh/rtk/rtk1-v6/",l.na,".md")
 	writeLines(content, l.path)
 }

@@ -8,5 +8,5 @@ permalink: /:title/
 exclude:
  - README.md
 
-gems:
-  - jekyll-redirect-from
+#gems:
+#  - jekyll-redirect-from
