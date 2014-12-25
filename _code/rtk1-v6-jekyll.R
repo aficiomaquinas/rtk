@@ -14,7 +14,11 @@ for (i in 1:n) {
 	line <- str_split(line, "\037")
 	l <- line[[1]]
 	l.nav[i,1] <- l[3]
-	l.nav[i,2] <- l[5]
+	k.ka <- l[5]
+	if (str_detect(k.ka,"・")) {
+		k.ka <- str_sub(k.ka,1,1)
+	}
+	l.nav[i,2] <- k.ka
 }
 l.nav <- as.data.frame(l.nav, stringsAsFactors = FALSE)
 for (i in 1:n) {

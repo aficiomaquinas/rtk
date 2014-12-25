@@ -54,8 +54,7 @@ for (i in 1:nk) {
 		k.s2 <- k[8]
 		k.s2 <- str_split(k.s2, "<br[ ]*[/]?>")[[1]][2:6]
 		k.s2 <- str_replace_all(k.s2, "\"\"", "\"")
-	  k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alnum:]]+)\">[[:alnum:]]+</a>", "\\1")
-		k.s2 <- str_replace_all(k.s2, "midori://search[?]text=", "http://google.com/#q=")
+	  k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alnum:]|[:blank:]]+)\">[[:alnum:]|[:blank:]]+</a>", "\\1")
 		k.s2 <- str_replace_all(k.s2, "<a href=\"http://kanji.koohii.com/study/kanji/([[:alnum:]]+)\">([[:alnum:]|[:blank:]]+)</a>", "<a href=\"../v4/\\1.html\">\\2</a>")
 		k.s2 <- str_replace_all(k.s2, "<span class=\"index\">", "")
 		k.s2 <- str_replace_all(k.s2, "</span>", "")
@@ -75,8 +74,7 @@ for (i in 1:nk) {
 		k.s2 <- k[8]
 		k.s2 <- str_split(k.s2, "<br[ ]*[/]?>")[[1]][2:6]
 		k.s2 <- str_replace_all(k.s2, "\"\"", "\"")
-		k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alnum:]]+)\">[[:alnum:]]+</a>", "\\1")
-		k.s2 <- str_replace_all(k.s2, "midori://search[?]text=", "http://google.com/#q=")
+		k.s2 <- str_replace_all(k.s2, "<a href=\"midori://search[?]text=([[:alnum:]|[:blank:]]+)\">[[:alnum:]|[:blank:]]+</a>", "\\1")
 		k.s2 <- str_replace_all(k.s2, "<a href=\"http://kanji.koohii.com/study/kanji/([[:alnum:]]+)\">([[:alnum:]|[:blank:]]+)</a>", "<a href=\"../v4/\\1.html\">\\2</a>")
 		k.s2 <- str_replace_all(k.s2, "<span class=\"index\">", "")
 		k.s2 <- str_replace_all(k.s2, "</span>", "")
