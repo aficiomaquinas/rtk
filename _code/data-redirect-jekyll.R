@@ -4,6 +4,9 @@ full <- read.csv("data-full.csv", stringsAsFactors = FALSE)
 for (i in 1:3030) {
 	k.no <- full[i,2]
 	k.ka <- full[i,3]
+	if (str_detect(k.ka,"・")) {
+		k.ka <- str_sub(k.ka,1,1)
+	}
 	content <- paste0("<!DOCTYPE html>\n",
 										"<meta charset=utf-8>\n",
 										"<title>Redirecting...</title>\n",
