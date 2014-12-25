@@ -1,4 +1,5 @@
 {
+  "id" : "{{ post.v4 }}",
   "kanji" : "{{ post.kanji }}",
   "keyword" : "{{ post.keyword | remove:'"' }}",
   "elements" : "{{ post.elements | remove:'"' }}",
