@@ -80,6 +80,6 @@ for (i in 1:n) {
 										"\n---",
 										"\n\n", l.koo,
 										"\n")
-	l.path <- paste0("/data/repos/hochanh/rtk/rtk1-v6/",l.na,".md")
+	l.path <- paste0("/data/repos/manhtai/rtk/rtk1-v6/",l.na,".md")
 	writeLines(content, l.path)
 }

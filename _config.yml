@@ -8,3 +8,6 @@ permalink: /:title/
 exclude:
  - README.md
  - CNAME
+
+gems:
+ - jekyll-redirect-from

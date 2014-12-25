@@ -19,12 +19,12 @@ for (i in 1:830) {
 										"\nstrokes: ", s.sks,
 										"\non-yomi: ", s.on,
 										"\npermalink: /", s.ka,"/",
-										"\nredirect_from:",
-										"\n - /v4/", s.no, "/",
+										#"\nredirect_from:",
+										#"\n - /v4/", s.no, "/",
 										"\n---",
 										"\n\n", ifelse(s.koo=="","","## Koohii stories: "),
 										"\n\n",s.koo,
 										"\n")
-	s.path <- paste0("/data/repos/hochanh/rtk/rtk3-remain/",s.no,".md")
+	s.path <- paste0("/data/repos/manhtai/rtk/rtk3-remain/",s.no,".md")
 	writeLines(content, s.path)
 }
