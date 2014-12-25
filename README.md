@@ -9,4 +9,6 @@ This is a search engine website for RTK.
 
 This website is for my using only!
 
+Want to download it? Download it [here](https://github.com/manhtai/rtk/archive/offline.zip)
+
 Last update: 25/12/2014
