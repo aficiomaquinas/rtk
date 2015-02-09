@@ -1,14 +1,9 @@
-[rtk]
-=====
+This is a web-based search engine for the book: Remembering the Kanji, Volume I.
 
-This is a search engine website for RTK.
+[manhtai.github.io/rtk](http://manhtai.github.io/rtk)
 
-- [rtk.manhtai.com](http://rtk.manhtai.com)
+Although I'm sure it violates some copyrights, I'm still put it here for free-to-learn's sake.
 
-- [manhtai.github.io/rtk](http://manhtai.github.io/rtk)
+Want to use it offline? Right [here](https://github.com/manhtai/rtk/archive/offline.zip).
 
-This website is for my using only!
-
-Want to download it? Download it [here](https://github.com/manhtai/rtk/archive/offline.zip).
-
-Last update: 25/12/2014
+Last update: 09/02/2015
