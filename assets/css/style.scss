@@ -46,18 +46,18 @@ body {
 	margin-top: 1em;
 	max-width: $maxi;
 	min-width: $mini;
-
+  text-align: center;
 	@media screen and (min-width: $medi) {
 	width: 100%;
 	margin: 1em auto 2em;
 	}
 }
 
-#foot p a {
+#foot p, a {
   color: #cecece;
 }
 
-#foot p a:hover {
+#foot a:hover {
   color: #595959;
 }
 
