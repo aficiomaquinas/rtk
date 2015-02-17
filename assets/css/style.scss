@@ -45,11 +45,20 @@ body {
 #foot{
 	margin-top: 1em;
 	max-width: $maxi;
+	min-width: $mini;
 
 	@media screen and (min-width: $medi) {
-		width: 88.8%;
-		margin: 1em auto 2em;
+	width: 100%;
+	margin: 1em auto 2em;
 	}
+}
+
+#foot p a {
+  color: #cecece;
+}
+
+#foot p a:hover {
+  color: #595959;
 }
 
 h1, h2, h3, h4, h5, h6 {
