@@ -4,6 +4,4 @@ This is a web-based search engine for the book: Remembering the Kanji, Volume I.
 
 Although I'm sure it violates some copyrights, I'm still put it here for free-to-learn's sake.
 
-Want to use it offline? Right [here](https://github.com/manhtai/rtk/archive/offline.zip).
-
-Last update: 09/02/2015
+Want to use it offline? Right [here](https://github.com/manhtai/rtk/archive/offline.zip). (_Not updated_)
