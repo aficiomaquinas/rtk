@@ -10,14 +10,44 @@
 </head>
 
 <body>
-	<div role="main" class="main">
-			
-	  {{ content }}
+  <div role="main" class="main">
+      
+    {{ content }}
 
   </div>
   <div id="foot">
     <p>@ {{ site.time | date: "%Y" }} <a href="http://manhtai.github.io">Mạnh Tài</a></p>
   </div>
+
+
+
+{% if page.type != 'index' %}
+  <script type="text/javascript" src="../assets/js/dmak.js"></script>
+  <script type="text/javascript" src="../assets/js/raphael-min.js"></script>
+  <script>
+    var dmak = new Dmak('{{ page.kanji }}', {'element': "draw"});
+    var p = document.getElementById("p");
+    p.onclick = function () {
+      dmak.eraseLastStrokes(1);
+    };
+    var s = document.getElementById("s");
+    s.onclick = function () {
+      dmak.pause();
+    };
+    var g = document.getElementById("g");
+    g.onclick = function () {
+      dmak.render();
+    };
+    var n = document.getElementById("n");
+    n.onclick = function () {
+      dmak.renderNextStrokes(1);
+    };
+    var r = document.getElementById("r");
+    r.onclick = function () {
+      dmak.erase();
+    };
+  </script>
+{% endif %}
 
 </body>
 </html>

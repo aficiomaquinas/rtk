@@ -19,10 +19,16 @@ layout: default
 
 <h2><code title="Frame number V4: {{ page.v4 }}, V6: {{ page.v6 }}">{{ page.keyword }}</code></h2>
 
-<!-- <div class="stroke"><img title="{{ page.strokes }} stroke{% if page.strokes != 1 %}s{% endif %}" src="../strokes/{{ page.image }}.png" /></div> -->
-
-<input id="kanji" value="{{ page.kanji }}" type="hidden">
-<div id="kanjiViewer"></div>
+<div id="kanjiViewer">
+  <div id="draw"></div>
+  <div id="sample-btn">
+    <button id="p">‹</button>
+    <button id="s">■</button>
+    <button id="g">▶</button>
+    <button id="n">›</button>
+    <button id="r">✕</button>
+  </div>
+</div>
 
 <h3>On-Yomi: <a>{{ page.on-yomi }}</a> {% if page.kun-yomi %}— Kun-Yomi: <a>{{ page.kun-yomi }}</a>{% endif %}</h3>
 
@@ -56,53 +62,3 @@ layout: default
 
 
 
-
-
-
-<script type="text/javascript" src="../assets/js/jquery.min.js"></script> 
-<script type="text/javascript" src="../assets/js/raphael-min.js"></script>
-<script type="text/javascript" src="../assets/js/kanjiviewer.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function () {
-        function urldecode(str) {
-            return decodeURIComponent((str + '').replace(/\+/g, '%20'));
-        }
-
-        function getUrlVars() {
-            var vars = [], hash;
-            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-            for (var i = 0; i < hashes.length; i++) {
-                hash = hashes[i].split('=');
-                vars.push(hash[0]);
-                vars[hash[0]] = urldecode(hash[1]);
-            }
-            return vars;
-        }
-
-        var kanji = getUrlVars()["kanji"];
-        if (kanji == null) {
-            kanji = jQuery('#kanji').val();
-        } else {
-            jQuery('#kanji').val(kanji);
-        }
-        KanjiViewer.initialize(
-                "kanjiViewer",
-                3,
-                5,
-                100,
-                true,
-                false,
-                kanji
-        ); 
-        jQuery('#kanjiViewerParams').submit(function () {
-            5;
-            100;
-            3;
-            true;
-            false;
-            KanjiViewer.setKanji(jQuery('#kanji').val());
-            KanjiViewer.refreshKanji();
-            return false;
-        });
-    });
-</script>
