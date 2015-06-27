@@ -11,7 +11,7 @@
 
 <body>
   <div role="main" class="main">
-      
+
     {{ content }}
 
   </div>
@@ -25,6 +25,7 @@
   <script type="text/javascript" src="../assets/js/dmak.js"></script>
   <script type="text/javascript" src="../assets/js/raphael-min.js"></script>
   <script>
+    // Dmak
     var dmak = new Dmak('{{ page.kanji }}', {'element': "draw"});
     var p = document.getElementById("p");
     p.onclick = function () {
@@ -46,6 +47,19 @@
     r.onclick = function () {
       dmak.erase();
     };
+    // Left and right arrow navigation
+    document.body.onkeydown = function(event) {
+      switch (event.keyCode) {
+        // Left arrow button
+        case 37:
+          window.location = "../{% if page.prev != "" %}{{ page.prev }}/index.html{% endif %}"
+          break;
+        // Right arrow button
+        case 39:
+          window.location = "../{% if page.next != "" %}{{ page.next }}/index.html{% endif %}"
+          break;
+      }
+    }
   </script>
 {% endif %}
 
